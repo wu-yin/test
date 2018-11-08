@@ -1,0 +1,1286 @@
+
+/home/Suwen/log/AppSpy.log
+Start new log file at 1970.06.12 11:09:18 
+1970.06.12 11:09:18 AppSpy.cpp@24, _saveSpyInfoOnce(): 
+
+##################################################
+Fri Jun 12 11:10:18 UTC 1970
+-------------------------------
+Top info:
+SpyInfo_top: Mem: 110104K used, 270820K free, 0K shrd, 20704K buff, 51408K cached
+SpyInfo_top: CPU: 20.0% usr 80.0% sys  0.0% nic  0.0% idle  0.0% io  0.0% irq  0.0% sirq
+SpyInfo_top: Load average: 2.91 2.04 0.95 2/60 1954
+SpyInfo_top:   PID  PPID USER     STAT   VSZ %VSZ CPU %CPU COMMAND
+SpyInfo_top:  1807     1 root     R    62892 16.5   0 60.0 /home/Suwen/bin/mip -qws
+SpyInfo_top:  1952  1950 root     R     2348  0.6   0 10.0 top -b -n 1
+SpyInfo_top:  1809     1 root     S    28312  7.4   0  0.0 /home/Suwen/bin/AppSpy
+SpyInfo_top:  1808     1 root     R    20416  5.3   0  0.0 /home/Suwen/bin/AppRecorder
+SpyInfo_top:  1479     1 root     S    12024  3.1   0  0.0 eGTouchD
+SpyInfo_top:  1496     1 root     S     2636  0.6   0  0.0 telnetd
+SpyInfo_top:  1477     1 root     S     2364  0.6   0  0.0 syslogd -SC
+SpyInfo_top:  1591  1496 root     S     2352  0.6   0  0.0 -sh
+SpyInfo_top:  1954  1950 root     S     2352  0.6   0  0.0 sed s/^/SpyInfo_top: /
+SpyInfo_top:     1     0 root     S     2348  0.6   0  0.0 init
+SpyInfo_top:  1480     1 root     S     2348  0.6   0  0.0 {start_pppd.sh} /bin/sh /etc/init.d/start_pppd.sh
+SpyInfo_top:  1498     1 root     S     2348  0.6   0  0.0 init
+SpyInfo_top:  1499     1 root     S     2348  0.6   0  0.0 init
+SpyInfo_top:  1500     1 root     S     2348  0.6   0  0.0 init
+SpyInfo_top:  1501     1 root     S     2348  0.6   0  0.0 init
+SpyInfo_top:  1950     1 root     S     2348  0.6   0  0.0 {AppSpyCmd.sh} /bin/sh /home/Suwen/bin/AppSpyCmd.sh /home/Suwen/log/AppSpy.log
+-------------------------------
+uptime info:
+SpyInfo_uptime:  11:10:18 up 6 min,  1 users,  load average: 2.91, 2.04, 0.94
+-------------------------------
+disk info:
+SpyInfo_disk: Filesystem                Size      Used Available Use% Mounted on
+SpyInfo_disk: /dev/root                 2.5G    190.1M      2.1G   8% /
+SpyInfo_disk: none                    186.0M      1.7M    184.3M   1% /tmp
+SpyInfo_disk: none                    186.0M     20.0K    186.0M   0% /var
+SpyInfo_disk: none                     64.0K         0     64.0K   0% /dev
+SpyInfo_disk: 192.168.1.4:/home/Suwen/
+SpyInfo_disk:                          96.5G     18.4G     77.1G  19% /home/Suwen
+-------------------------------
+dmesg info:
+1970.06.12 11:11:18 AppSpy.cpp@24, _saveSpyInfoOnce(): 
+
+##################################################
+Fri Jun 12 11:11:18 UTC 1970
+-------------------------------
+Top info:
+SpyInfo_top: Mem: 113172K used, 267752K free, 0K shrd, 20704K buff, 51408K cached
+SpyInfo_top: CPU: 30.0% usr 70.0% sys  0.0% nic  0.0% idle  0.0% io  0.0% irq  0.0% sirq
+SpyInfo_top: Load average: 2.86 2.19 1.07 1/60 2026
+SpyInfo_top:   PID  PPID USER     STAT   VSZ %VSZ CPU %CPU COMMAND
+SpyInfo_top:  1807     1 root     R    66504 17.4   0 60.0 /home/Suwen/bin/mip -qws
+SpyInfo_top:  2024  2022 root     R     2348  0.6   0 10.0 top -b -n 1
+SpyInfo_top:  1465     2 root     SW       0  0.0   0 10.0 [kworker/0:2]
+SpyInfo_top:  1809     1 root     S    28312  7.4   0  0.0 /home/Suwen/bin/AppSpy
+SpyInfo_top:  1808     1 root     S    20896  5.4   0  0.0 /home/Suwen/bin/AppRecorder
+SpyInfo_top:  1479     1 root     S    12024  3.1   0  0.0 eGTouchD
+SpyInfo_top:  1496     1 root     S     2636  0.6   0  0.0 telnetd
+SpyInfo_top:  1477     1 root     S     2364  0.6   0  0.0 syslogd -SC
+SpyInfo_top:  1591  1496 root     S     2352  0.6   0  0.0 -sh
+SpyInfo_top:  2026  2022 root     S     2352  0.6   0  0.0 sed s/^/SpyInfo_top: /
+SpyInfo_top:     1     0 root     S     2348  0.6   0  0.0 init
+SpyInfo_top:  1480     1 root     S     2348  0.6   0  0.0 {start_pppd.sh} /bin/sh /etc/init.d/start_pppd.sh
+SpyInfo_top:  1498     1 root     S     2348  0.6   0  0.0 init
+SpyInfo_top:  1499     1 root     S     2348  0.6   0  0.0 init
+SpyInfo_top:  1500     1 root     S     2348  0.6   0  0.0 init
+SpyInfo_top:  1501     1 root     S     2348  0.6   0  0.0 init
+-------------------------------
+uptime info:
+SpyInfo_uptime:  11:11:18 up 7 min,  1 users,  load average: 2.86, 2.18, 1.06
+-------------------------------
+disk info:
+SpyInfo_disk: Filesystem                Size      Used Available Use% Mounted on
+SpyInfo_disk: /dev/root                 2.5G    190.1M      2.1G   8% /
+SpyInfo_disk: none                    186.0M      1.7M    184.3M   1% /tmp
+SpyInfo_disk: none                    186.0M     20.0K    186.0M   0% /var
+SpyInfo_disk: none                     64.0K         0     64.0K   0% /dev
+SpyInfo_disk: 192.168.1.4:/home/Suwen/
+SpyInfo_disk:                          96.5G     18.4G     77.1G  19% /home/Suwen
+-------------------------------
+dmesg info:
+1970.06.12 11:12:18 AppSpy.cpp@24, _saveSpyInfoOnce(): 
+
+##################################################
+Fri Jun 12 11:12:18 UTC 1970
+-------------------------------
+Top info:
+SpyInfo_top: Mem: 114432K used, 266492K free, 0K shrd, 20704K buff, 51412K cached
+SpyInfo_top: CPU: 40.0% usr 40.0% sys  0.0% nic 20.0% idle  0.0% io  0.0% irq  0.0% sirq
+SpyInfo_top: Load average: 2.79 2.29 1.17 1/60 2097
+SpyInfo_top:   PID  PPID USER     STAT   VSZ %VSZ CPU %CPU COMMAND
+SpyInfo_top:  1807     1 root     R    66504 17.4   0 60.0 /home/Suwen/bin/mip -qws
+SpyInfo_top:  2095  2093 root     R     2348  0.6   0 10.0 top -b -n 1
+SpyInfo_top:  1465     2 root     RW       0  0.0   0 10.0 [kworker/0:2]
+SpyInfo_top:  1809     1 root     S    28312  7.4   0  0.0 /home/Suwen/bin/AppSpy
+SpyInfo_top:  1808     1 root     S    21376  5.6   0  0.0 /home/Suwen/bin/AppRecorder
+SpyInfo_top:  1479     1 root     S    12024  3.1   0  0.0 eGTouchD
+SpyInfo_top:  1496     1 root     S     2636  0.6   0  0.0 telnetd
+SpyInfo_top:  1477     1 root     S     2364  0.6   0  0.0 syslogd -SC
+SpyInfo_top:  1591  1496 root     S     2352  0.6   0  0.0 -sh
+SpyInfo_top:  2097  2093 root     S     2352  0.6   0  0.0 sed s/^/SpyInfo_top: /
+SpyInfo_top:     1     0 root     S     2348  0.6   0  0.0 init
+SpyInfo_top:  1480     1 root     S     2348  0.6   0  0.0 {start_pppd.sh} /bin/sh /etc/init.d/start_pppd.sh
+SpyInfo_top:  1498     1 root     S     2348  0.6   0  0.0 init
+SpyInfo_top:  1499     1 root     S     2348  0.6   0  0.0 init
+SpyInfo_top:  1500     1 root     S     2348  0.6   0  0.0 init
+SpyInfo_top:  1501     1 root     S     2348  0.6   0  0.0 init
+-------------------------------
+uptime info:
+SpyInfo_uptime:  11:12:18 up 8 min,  1 users,  load average: 2.78, 2.28, 1.17
+-------------------------------
+disk info:
+SpyInfo_disk: Filesystem                Size      Used Available Use% Mounted on
+SpyInfo_disk: /dev/root                 2.5G    190.1M      2.1G   8% /
+SpyInfo_disk: none                    186.0M      1.7M    184.3M   1% /tmp
+SpyInfo_disk: none                    186.0M     16.0K    186.0M   0% /var
+SpyInfo_disk: none                     64.0K         0     64.0K   0% /dev
+SpyInfo_disk: 192.168.1.4:/home/Suwen/
+SpyInfo_disk:                          96.5G     18.4G     77.1G  19% /home/Suwen
+-------------------------------
+dmesg info:
+1970.06.12 11:13:18 AppSpy.cpp@24, _saveSpyInfoOnce(): 
+
+##################################################
+Fri Jun 12 11:13:18 UTC 1970
+-------------------------------
+Top info:
+SpyInfo_top: Mem: 118032K used, 262892K free, 0K shrd, 20704K buff, 51416K cached
+SpyInfo_top: CPU: 30.0% usr 50.0% sys  0.0% nic 20.0% idle  0.0% io  0.0% irq  0.0% sirq
+SpyInfo_top: Load average: 2.90 2.41 1.28 4/60 2169
+SpyInfo_top:   PID  PPID USER     STAT   VSZ %VSZ CPU %CPU COMMAND
+SpyInfo_top:  1807     1 root     S    74200 19.4   0 60.0 /home/Suwen/bin/mip -qws
+SpyInfo_top:  2167  2165 root     R     2348  0.6   0 10.0 top -b -n 1
+SpyInfo_top:  1465     2 root     RW       0  0.0   0 10.0 [kworker/0:2]
+SpyInfo_top:  1809     1 root     S    28312  7.4   0  0.0 /home/Suwen/bin/AppSpy
+SpyInfo_top:  1808     1 root     R    21856  5.7   0  0.0 /home/Suwen/bin/AppRecorder
+SpyInfo_top:  1479     1 root     S    12024  3.1   0  0.0 eGTouchD
+SpyInfo_top:  1496     1 root     S     2636  0.6   0  0.0 telnetd
+SpyInfo_top:  1477     1 root     S     2364  0.6   0  0.0 syslogd -SC
+SpyInfo_top:  1591  1496 root     S     2352  0.6   0  0.0 -sh
+SpyInfo_top:  2169  2165 root     S     2352  0.6   0  0.0 sed s/^/SpyInfo_top: /
+SpyInfo_top:     1     0 root     S     2348  0.6   0  0.0 init
+SpyInfo_top:  1480     1 root     S     2348  0.6   0  0.0 {start_pppd.sh} /bin/sh /etc/init.d/start_pppd.sh
+SpyInfo_top:  1498     1 root     S     2348  0.6   0  0.0 init
+SpyInfo_top:  1499     1 root     S     2348  0.6   0  0.0 init
+SpyInfo_top:  1500     1 root     S     2348  0.6   0  0.0 init
+SpyInfo_top:  1501     1 root     S     2348  0.6   0  0.0 init
+-------------------------------
+uptime info:
+SpyInfo_uptime:  11:13:18 up 9 min,  1 users,  load average: 2.89, 2.40, 1.28
+-------------------------------
+disk info:
+SpyInfo_disk: Filesystem                Size      Used Available Use% Mounted on
+SpyInfo_disk: /dev/root                 2.5G    190.1M      2.1G   8% /
+SpyInfo_disk: none                    186.0M      1.7M    184.3M   1% /tmp
+SpyInfo_disk: none                    186.0M     20.0K    186.0M   0% /var
+SpyInfo_disk: none                     64.0K         0     64.0K   0% /dev
+SpyInfo_disk: 192.168.1.4:/home/Suwen/
+SpyInfo_disk:                          96.5G     18.4G     77.1G  19% /home/Suwen
+-------------------------------
+dmesg info:
+1970.06.12 11:14:18 AppSpy.cpp@24, _saveSpyInfoOnce(): 
+
+##################################################
+Fri Jun 12 11:14:18 UTC 1970
+-------------------------------
+Top info:
+SpyInfo_top: Mem: 119840K used, 261084K free, 0K shrd, 20704K buff, 51416K cached
+SpyInfo_top: CPU: 30.0% usr 60.0% sys  0.0% nic 10.0% idle  0.0% io  0.0% irq  0.0% sirq
+SpyInfo_top: Load average: 3.00 2.53 1.39 1/60 2242
+SpyInfo_top:   PID  PPID USER     STAT   VSZ %VSZ CPU %CPU COMMAND
+SpyInfo_top:  1807     1 root     R    74200 19.4   0 60.0 /home/Suwen/bin/mip -qws
+SpyInfo_top:  2240  2237 root     R     2348  0.6   0 10.0 top -b -n 1
+SpyInfo_top:  1465     2 root     SW       0  0.0   0 10.0 [kworker/0:2]
+SpyInfo_top:  1809     1 root     S    28312  7.4   0  0.0 /home/Suwen/bin/AppSpy
+SpyInfo_top:  1808     1 root     S    22336  5.8   0  0.0 /home/Suwen/bin/AppRecorder
+SpyInfo_top:  1479     1 root     S    12024  3.1   0  0.0 eGTouchD
+SpyInfo_top:  1496     1 root     S     2636  0.6   0  0.0 telnetd
+SpyInfo_top:  1477     1 root     S     2364  0.6   0  0.0 syslogd -SC
+SpyInfo_top:  1591  1496 root     S     2352  0.6   0  0.0 -sh
+SpyInfo_top:  2242  2237 root     S     2352  0.6   0  0.0 sed s/^/SpyInfo_top: /
+SpyInfo_top:     1     0 root     S     2348  0.6   0  0.0 init
+SpyInfo_top:  1480     1 root     S     2348  0.6   0  0.0 {start_pppd.sh} /bin/sh /etc/init.d/start_pppd.sh
+SpyInfo_top:  1498     1 root     S     2348  0.6   0  0.0 init
+SpyInfo_top:  1499     1 root     S     2348  0.6   0  0.0 init
+SpyInfo_top:  1500     1 root     S     2348  0.6   0  0.0 init
+SpyInfo_top:  1501     1 root     S     2348  0.6   0  0.0 init
+-------------------------------
+uptime info:
+SpyInfo_uptime:  11:14:18 up 10 min,  1 users,  load average: 3.00, 2.52, 1.39
+-------------------------------
+disk info:
+SpyInfo_disk: Filesystem                Size      Used Available Use% Mounted on
+SpyInfo_disk: /dev/root                 2.5G    190.1M      2.1G   8% /
+SpyInfo_disk: none                    186.0M      1.7M    184.3M   1% /tmp
+SpyInfo_disk: none                    186.0M     20.0K    186.0M   0% /var
+SpyInfo_disk: none                     64.0K         0     64.0K   0% /dev
+SpyInfo_disk: 192.168.1.4:/home/Suwen/
+SpyInfo_disk:                          96.5G     18.4G     77.1G  19% /home/Suwen
+-------------------------------
+dmesg info:
+1970.06.12 11:15:18 AppSpy.cpp@24, _saveSpyInfoOnce(): 
+
+##################################################
+Fri Jun 12 11:15:18 UTC 1970
+-------------------------------
+Top info:
+SpyInfo_top: Mem: 121572K used, 259352K free, 0K shrd, 20704K buff, 51420K cached
+SpyInfo_top: CPU: 10.0% usr 70.0% sys  0.0% nic 20.0% idle  0.0% io  0.0% irq  0.0% sirq
+SpyInfo_top: Load average: 2.98 2.60 1.49 1/60 2313
+SpyInfo_top:   PID  PPID USER     STAT   VSZ %VSZ CPU %CPU COMMAND
+SpyInfo_top:  1807     1 root     R    74200 19.4   0 60.0 /home/Suwen/bin/mip -qws
+SpyInfo_top:  2311  2309 root     R     2348  0.6   0 10.0 top -b -n 1
+SpyInfo_top:  1809     1 root     S    28312  7.4   0  0.0 /home/Suwen/bin/AppSpy
+SpyInfo_top:  1808     1 root     S    22816  5.9   0  0.0 /home/Suwen/bin/AppRecorder
+SpyInfo_top:  1479     1 root     S    12024  3.1   0  0.0 eGTouchD
+SpyInfo_top:  1496     1 root     S     2636  0.6   0  0.0 telnetd
+SpyInfo_top:  1477     1 root     S     2364  0.6   0  0.0 syslogd -SC
+SpyInfo_top:  1591  1496 root     S     2352  0.6   0  0.0 -sh
+SpyInfo_top:  2313  2309 root     S     2352  0.6   0  0.0 sed s/^/SpyInfo_top: /
+SpyInfo_top:     1     0 root     S     2348  0.6   0  0.0 init
+SpyInfo_top:  1480     1 root     S     2348  0.6   0  0.0 {start_pppd.sh} /bin/sh /etc/init.d/start_pppd.sh
+SpyInfo_top:  1498     1 root     S     2348  0.6   0  0.0 init
+SpyInfo_top:  1499     1 root     S     2348  0.6   0  0.0 init
+SpyInfo_top:  1500     1 root     S     2348  0.6   0  0.0 init
+SpyInfo_top:  1501     1 root     S     2348  0.6   0  0.0 init
+SpyInfo_top:  2309     1 root     S     2348  0.6   0  0.0 {AppSpyCmd.sh} /bin/sh /home/Suwen/bin/AppSpyCmd.sh /home/Suwen/log/AppSpy.log
+-------------------------------
+uptime info:
+SpyInfo_uptime:  11:15:18 up 11 min,  1 users,  load average: 2.98, 2.59, 1.48
+-------------------------------
+disk info:
+SpyInfo_disk: Filesystem                Size      Used Available Use% Mounted on
+SpyInfo_disk: /dev/root                 2.5G    190.1M      2.1G   8% /
+SpyInfo_disk: none                    186.0M      1.7M    184.3M   1% /tmp
+SpyInfo_disk: none                    186.0M     16.0K    186.0M   0% /var
+SpyInfo_disk: none                     64.0K         0     64.0K   0% /dev
+SpyInfo_disk: 192.168.1.4:/home/Suwen/
+SpyInfo_disk:                          96.5G     18.3G     77.1G  19% /home/Suwen
+-------------------------------
+dmesg info:
+1970.06.12 11:16:18 AppSpy.cpp@24, _saveSpyInfoOnce(): 
+
+##################################################
+Fri Jun 12 11:16:18 UTC 1970
+-------------------------------
+Top info:
+SpyInfo_top: Mem: 123432K used, 257492K free, 0K shrd, 20704K buff, 51424K cached
+SpyInfo_top: CPU: 27.2% usr 45.4% sys  0.0% nic 27.2% idle  0.0% io  0.0% irq  0.0% sirq
+SpyInfo_top: Load average: 2.86 2.64 1.57 1/60 2385
+SpyInfo_top:   PID  PPID USER     STAT   VSZ %VSZ CPU %CPU COMMAND
+SpyInfo_top:  1807     1 root     S    74200 19.4   0 45.3 /home/Suwen/bin/mip -qws
+SpyInfo_top:  2382  2380 root     R     2348  0.6   0  9.0 top -b -n 1
+SpyInfo_top:  1465     2 root     RW       0  0.0   0  9.0 [kworker/0:2]
+SpyInfo_top:  1809     1 root     S    28312  7.4   0  0.0 /home/Suwen/bin/AppSpy
+SpyInfo_top:  1808     1 root     S    23296  6.1   0  0.0 /home/Suwen/bin/AppRecorder
+SpyInfo_top:  1479     1 root     S    12024  3.1   0  0.0 eGTouchD
+SpyInfo_top:  1496     1 root     S     2636  0.6   0  0.0 telnetd
+SpyInfo_top:  1477     1 root     S     2364  0.6   0  0.0 syslogd -SC
+SpyInfo_top:  1591  1496 root     S     2352  0.6   0  0.0 -sh
+SpyInfo_top:  2384  2380 root     S     2352  0.6   0  0.0 sed s/^/SpyInfo_top: /
+SpyInfo_top:     1     0 root     S     2348  0.6   0  0.0 init
+SpyInfo_top:  1480     1 root     S     2348  0.6   0  0.0 {start_pppd.sh} /bin/sh /etc/init.d/start_pppd.sh
+SpyInfo_top:  1498     1 root     S     2348  0.6   0  0.0 init
+SpyInfo_top:  1499     1 root     S     2348  0.6   0  0.0 init
+SpyInfo_top:  1500     1 root     S     2348  0.6   0  0.0 init
+SpyInfo_top:  1501     1 root     S     2348  0.6   0  0.0 init
+-------------------------------
+uptime info:
+SpyInfo_uptime:  11:16:18 up 12 min,  1 users,  load average: 2.85, 2.64, 1.57
+-------------------------------
+disk info:
+SpyInfo_disk: Filesystem                Size      Used Available Use% Mounted on
+SpyInfo_disk: /dev/root                 2.5G    190.1M      2.1G   8% /
+SpyInfo_disk: none                    186.0M      1.7M    184.3M   1% /tmp
+SpyInfo_disk: none                    186.0M     20.0K    186.0M   0% /var
+SpyInfo_disk: none                     64.0K         0     64.0K   0% /dev
+SpyInfo_disk: 192.168.1.4:/home/Suwen/
+SpyInfo_disk:                          96.5G     18.4G     77.1G  19% /home/Suwen
+-------------------------------
+dmesg info:
+1970.06.12 11:17:18 AppSpy.cpp@24, _saveSpyInfoOnce(): 
+
+##################################################
+Fri Jun 12 11:17:18 UTC 1970
+-------------------------------
+Top info:
+SpyInfo_top: Mem: 124872K used, 256052K free, 0K shrd, 20704K buff, 51420K cached
+SpyInfo_top: CPU: 27.2% usr  9.0% sys  0.0% nic 63.6% idle  0.0% io  0.0% irq  0.0% sirq
+SpyInfo_top: Load average: 2.85 2.68 1.65 3/60 2456
+SpyInfo_top:   PID  PPID USER     STAT   VSZ %VSZ CPU %CPU COMMAND
+SpyInfo_top:  1807     1 root     S    74200 19.4   0 25.9 /home/Suwen/bin/mip -qws
+SpyInfo_top:  1808     1 root     S    23776  6.2   0  5.1 /home/Suwen/bin/AppRecorder
+SpyInfo_top:  2454  2452 root     R     2348  0.6   0  5.1 top -b -n 1
+SpyInfo_top:  1809     1 root     S    28312  7.4   0  0.0 /home/Suwen/bin/AppSpy
+SpyInfo_top:  1479     1 root     S    12024  3.1   0  0.0 eGTouchD
+SpyInfo_top:  1496     1 root     S     2636  0.6   0  0.0 telnetd
+SpyInfo_top:  1477     1 root     S     2364  0.6   0  0.0 syslogd -SC
+SpyInfo_top:  1591  1496 root     S     2352  0.6   0  0.0 -sh
+SpyInfo_top:  2456  2452 root     S     2352  0.6   0  0.0 sed s/^/SpyInfo_top: /
+SpyInfo_top:     1     0 root     S     2348  0.6   0  0.0 init
+SpyInfo_top:  1480     1 root     S     2348  0.6   0  0.0 {start_pppd.sh} /bin/sh /etc/init.d/start_pppd.sh
+SpyInfo_top:  1498     1 root     S     2348  0.6   0  0.0 init
+SpyInfo_top:  1499     1 root     S     2348  0.6   0  0.0 init
+SpyInfo_top:  1500     1 root     S     2348  0.6   0  0.0 init
+SpyInfo_top:  1501     1 root     S     2348  0.6   0  0.0 init
+SpyInfo_top:  2452     1 root     S     2348  0.6   0  0.0 {AppSpyCmd.sh} /bin/sh /home/Suwen/bin/AppSpyCmd.sh /home/Suwen/log/AppSpy.log
+-------------------------------
+uptime info:
+SpyInfo_uptime:  11:17:18 up 13 min,  1 users,  load average: 2.84, 2.67, 1.65
+-------------------------------
+disk info:
+SpyInfo_disk: Filesystem                Size      Used Available Use% Mounted on
+SpyInfo_disk: /dev/root                 2.5G    190.1M      2.1G   8% /
+SpyInfo_disk: none                    186.0M      1.7M    184.3M   1% /tmp
+SpyInfo_disk: none                    186.0M     16.0K    186.0M   0% /var
+SpyInfo_disk: none                     64.0K         0     64.0K   0% /dev
+SpyInfo_disk: 192.168.1.4:/home/Suwen/
+SpyInfo_disk:                          96.5G     18.4G     77.1G  19% /home/Suwen
+-------------------------------
+dmesg info:
+
+/home/Suwen/log/AppSpy.log
+Start new log file at 2013.12.21 15:54:44 
+2013.12.21 15:54:44 AppSpy.cpp@24, _saveSpyInfoOnce(): 
+
+##################################################
+Sat Dec 21 15:54:44 UTC 2013
+-------------------------------
+Top info:
+SpyInfo_top: Mem: 122248K used, 258676K free, 0K shrd, 3300K buff, 81800K cached
+SpyInfo_top: CPU:  0.0% usr  0.0% sys  0.0% nic  100% idle  0.0% io  0.0% irq  0.0% sirq
+SpyInfo_top: Load average: 2.81 1.35 0.52 1/61 1687
+SpyInfo_top:   PID  PPID USER     STAT   VSZ %VSZ CPU %CPU COMMAND
+SpyInfo_top:  1677     1 root     R    60704 15.9   0  0.0 /home/Suwen/bin/AppPm -qws
+SpyInfo_top:  1685  1683 root     R     2348  0.6   0  0.0 top -b -n 1
+SpyInfo_top:  1679     1 root     S    28312  7.4   0  0.0 /home/Suwen/bin/AppSpy
+SpyInfo_top:  1678     1 root     S    21492  5.6   0  0.0 /home/Suwen/bin/AppRecorder
+SpyInfo_top:  1484     1 root     S    12024  3.1   0  0.0 eGTouchD
+SpyInfo_top:  1482     1 root     S     2364  0.6   0  0.0 syslogd -SC
+SpyInfo_top:  1687  1683 root     S     2352  0.6   0  0.0 sed s/^/SpyInfo_top: /
+SpyInfo_top:     1     0 root     S     2348  0.6   0  0.0 init
+SpyInfo_top:  1500     1 root     S     2348  0.6   0  0.0 telnetd
+SpyInfo_top:  1502     1 root     S     2348  0.6   0  0.0 init
+SpyInfo_top:  1503     1 root     S     2348  0.6   0  0.0 init
+SpyInfo_top:  1504     1 root     S     2348  0.6   0  0.0 init
+SpyInfo_top:  1505     1 root     S     2348  0.6   0  0.0 init
+SpyInfo_top:  1683     1 root     S     2348  0.6   0  0.0 {AppSpyCmd.sh} /bin/sh /home/Suwen/bin/AppSpyCmd.sh /home/Suwen/log/AppSpy.log
+SpyInfo_top:  1686  1683 root     S     2220  0.5   0  0.0 head -n 20
+SpyInfo_top:   529     2 root     RW       0  0.0   0  0.0 [kworker/0:1]
+-------------------------------
+uptime info:
+SpyInfo_uptime:  15:54:44 up 3 min,  0 users,  load average: 2.81, 1.34, 0.52
+-------------------------------
+disk info:
+SpyInfo_disk: Filesystem                Size      Used Available Use% Mounted on
+SpyInfo_disk: /dev/root                 2.5G    191.2M      2.1G   8% /
+SpyInfo_disk: none                    186.0M      2.1M    183.9M   1% /tmp
+SpyInfo_disk: none                    186.0M      8.0K    186.0M   0% /var
+SpyInfo_disk: none                     64.0K         0     64.0K   0% /dev
+-------------------------------
+dmesg info:
+SpyInfo_dmesg:  [max17135] using legacy resume method
+SpyInfo_dmesg: Switching to clocksource mxc_timer1
+SpyInfo_dmesg: NET: Registered protocol family 2
+SpyInfo_dmesg: IP route cache hash table entries: 4096 (order: 2, 16384 bytes)
+SpyInfo_dmesg: TCP established hash table entries: 16384 (order: 5, 131072 bytes)
+SpyInfo_dmesg: TCP bind hash table entries: 16384 (order: 5, 196608 bytes)
+SpyInfo_dmesg: TCP: Hash tables configured (established 16384 bind 16384)
+SpyInfo_dmesg: TCP reno registered
+SpyInfo_dmesg: UDP hash table entries: 256 (order: 1, 8192 bytes)
+SpyInfo_dmesg: UDP-Lite hash table entries: 256 (order: 1, 8192 bytes)
+SpyInfo_dmesg: NET: Registered protocol family 1
+SpyInfo_dmesg: RPC: Registered named UNIX socket transport module.
+SpyInfo_dmesg: RPC: Registered udp transport module.
+SpyInfo_dmesg: RPC: Registered tcp transport module.
+SpyInfo_dmesg: RPC: Registered tcp NFSv4.1 backchannel transport module.
+SpyInfo_dmesg: PCI: CLS 0 bytes, default 32
+SpyInfo_dmesg: PMU: registered new PMU device of type 0
+SpyInfo_dmesg: Static Power Management for Freescale i.MX6
+SpyInfo_dmesg: wait mode is enabled for i.MX6
+SpyInfo_dmesg: cpaddr = a0820000 suspend_iram_base=a08bc000
+SpyInfo_dmesg: PM driver module loaded
+SpyInfo_dmesg: IMX PCIe port: link up.
+SpyInfo_dmesg: pci 0000:00:00.0: [16c3:abcd] type 1 class 0x000604
+SpyInfo_dmesg: pci 0000:00:00.0: reg 10: [mem 0x00000000-0x000fffff 64bit pref]
+SpyInfo_dmesg: pci 0000:00:00.0: reg 38: [mem 0x00000000-0x0000ffff pref]
+SpyInfo_dmesg: pci 0000:00:00.0: supports D1
+SpyInfo_dmesg: pci 0000:00:00.0: PME# supported from D0 D1 D3hot D3cold
+SpyInfo_dmesg: pci 0000:00:00.0: PME# disabled
+SpyInfo_dmesg: PCI: bus0: Fast back to back transfers disabled
+SpyInfo_dmesg: pci 0000:01:00.0: [10ec:8168] type 0 class 0x000200
+SpyInfo_dmesg: pci 0000:01:00.0: reg 10: [io  0x0000-0x00ff]
+SpyInfo_dmesg: pci 0000:01:00.0: reg 18: [mem 0x00000000-0x00000fff 64bit pref]
+SpyInfo_dmesg: pci 0000:01:00.0: reg 20: [mem 0x00000000-0x00003fff 64bit pref]
+SpyInfo_dmesg: pci 0000:01:00.0: supports D1 D2
+SpyInfo_dmesg: pci 0000:01:00.0: PME# supported from D0 D1 D2 D3hot D3cold
+SpyInfo_dmesg: pci 0000:01:00.0: PME# disabled
+SpyInfo_dmesg: PCI: bus1: Fast back to back transfers disabled
+SpyInfo_dmesg: pci 0000:00:00.0: BAR 0: assigned [mem 0x01100000-0x011fffff 64bit pref]
+SpyInfo_dmesg: pci 0000:00:00.0: BAR 0: set to [mem 0x01100000-0x011fffff 64bit pref] (PCI address [0x1100000-0x11fffff])
+SpyInfo_dmesg: pci 0000:00:00.0: BAR 9: assigned [mem 0x01200000-0x012fffff pref]
+SpyInfo_dmesg: pci 0000:00:00.0: BAR 6: assigned [mem 0x01300000-0x0130ffff pref]
+SpyInfo_dmesg: pci 0000:00:00.0: BAR 7: assigned [io  0x1000000-0x1000fff]
+SpyInfo_dmesg: pci 0000:01:00.0: BAR 4: assigned [mem 0x01200000-0x01203fff 64bit pref]
+SpyInfo_dmesg: pci 0000:01:00.0: BAR 4: set to [mem 0x01200000-0x01203fff 64bit pref] (PCI address [0x1200000-0x1203fff])
+SpyInfo_dmesg: pci 0000:01:00.0: BAR 2: assigned [mem 0x01204000-0x01204fff 64bit pref]
+SpyInfo_dmesg: pci 0000:01:00.0: BAR 2: set to [mem 0x01204000-0x01204fff 64bit pref] (PCI address [0x1204000-0x1204fff])
+SpyInfo_dmesg: pci 0000:01:00.0: BAR 0: assigned [io  0x1000000-0x10000ff]
+SpyInfo_dmesg: pci 0000:01:00.0: BAR 0: set to [io  0x1000000-0x10000ff] (PCI address [0x1000000-0x10000ff])
+SpyInfo_dmesg: pci 0000:00:00.0: PCI bridge to [bus 01-01]
+SpyInfo_dmesg: pci 0000:00:00.0:   bridge window [io  0x1000000-0x1000fff]
+SpyInfo_dmesg: pci 0000:00:00.0:   bridge window [mem disabled]
+SpyInfo_dmesg: pci 0000:00:00.0:   bridge window [mem 0x01200000-0x012fffff pref]
+SpyInfo_dmesg: IMX usb wakeup probe
+SpyInfo_dmesg: the wakeup pdata is 0x941046c0
+SpyInfo_dmesg: JFFS2 version 2.2. (NAND) © 2001-2006 Red Hat, Inc.
+SpyInfo_dmesg: msgmni has been set to 743
+SpyInfo_dmesg: alg: No test for stdrng (krng)
+SpyInfo_dmesg: io scheduler noop registered
+SpyInfo_dmesg: io scheduler deadline registered
+SpyInfo_dmesg: io scheduler cfq registered (default)
+SpyInfo_dmesg: 
+SpyInfo_dmesg:  mcu_i2c_probe ...
+SpyInfo_dmesg: mxc_mipi_dsi mxc_mipi_dsi: i.MX MIPI DSI driver probed
+SpyInfo_dmesg: MIPI DSI driver module loaded
+SpyInfo_dmesg: mxc_sdc_fb mxc_sdc_fb.0: register mxc display driver ldb
+SpyInfo_dmesg: _regulator_get: get() with no identifier
+SpyInfo_dmesg: Console: switching to colour frame buffer device 100x37
+SpyInfo_dmesg: mxc_sdc_fb mxc_sdc_fb.1: Can't get fb option for mxcfb1!
+SpyInfo_dmesg: imx-sdma imx-sdma: loaded firmware 1.1
+SpyInfo_dmesg: imx-sdma imx-sdma: initialized
+SpyInfo_dmesg: Serial: IMX driver
+SpyInfo_dmesg: imx-uart.3: ttymxc3 at MMIO 0x21f0000 (irq = 61) is a IMX
+SpyInfo_dmesg: imx-uart.2: ttymxc2 at MMIO 0x21ec000 (irq = 60) is a IMX
+SpyInfo_dmesg: imx-uart.1: ttymxc1 at MMIO 0x21e8000 (irq = 59) is a IMX
+SpyInfo_dmesg: imx-uart.0: ttymxc0 at MMIO 0x2020000 (irq = 58) is a IMX
+SpyInfo_dmesg: imx-uart.4: ttymxc4 at MMIO 0x21f4000 (irq = 62) is a IMX
+SpyInfo_dmesg: console [ttymxc4] enabled, bootconsole disabled
+SpyInfo_dmesg: brd: module loaded
+SpyInfo_dmesg: loop: module loaded
+SpyInfo_dmesg: GPMI NAND driver registered. (IMX)
+SpyInfo_dmesg: vcan: Virtual CAN interface driver
+SpyInfo_dmesg: CAN device driver interface
+SpyInfo_dmesg: flexcan netdevice driver
+SpyInfo_dmesg: PPP generic driver version 2.4.2
+SpyInfo_dmesg: SLIP: version 0.8.4-NET3.019-NEWTTY (dynamic channels, max=256).
+SpyInfo_dmesg: CSLIP: code copyright 1989 Regents of the University of California.
+SpyInfo_dmesg: r8168 Gigabit Ethernet driver 8.035.00-NAPI loaded
+SpyInfo_dmesg: PCI: enabling device 0000:01:00.0 (0140 -> 0143)
+SpyInfo_dmesg: r8168 0000:01:00.0: no MSI. Back to INTx.
+SpyInfo_dmesg: eth%d: RTL8168E/8111E at 0xa09b2000, 00:00:00:00:00:00, IRQ 155
+SpyInfo_dmesg: r8168: This product is covered by one or more of the following patents: US5,307,459, US5,434,872, US5,732,094, US6,570,884, US6,115,776, and US6,327,625.
+SpyInfo_dmesg: eth0: Identified chip type is 'RTL8168E/8111E'.
+SpyInfo_dmesg: r8168  Copyright (C) 2012  Realtek NIC software team <nicfae@realtek.com> 
+SpyInfo_dmesg:  This program comes with ABSOLUTELY NO WARRANTY; for details, please see <http://www.gnu.org/licenses/>. 
+SpyInfo_dmesg:  This is free software, and you are welcome to redistribute it under certain conditions; see <http://www.gnu.org/licenses/>. 
+SpyInfo_dmesg: ehci_hcd: USB 2.0 'Enhanced' Host Controller (EHCI) Driver
+SpyInfo_dmesg: fsl-ehci fsl-ehci.0: Freescale On-Chip EHCI Host Controller
+SpyInfo_dmesg: fsl-ehci fsl-ehci.0: new USB bus registered, assigned bus number 1
+SpyInfo_dmesg: fsl-ehci fsl-ehci.0: irq 75, io base 0x02184000
+SpyInfo_dmesg: fsl-ehci fsl-ehci.0: USB 2.0 started, EHCI 1.00
+SpyInfo_dmesg: hub 1-0:1.0: USB hub found
+SpyInfo_dmesg: hub 1-0:1.0: 1 port detected
+SpyInfo_dmesg: add wake up source irq 72
+SpyInfo_dmesg: fsl-ehci fsl-ehci.1: Freescale On-Chip EHCI Host Controller
+SpyInfo_dmesg: fsl-ehci fsl-ehci.1: new USB bus registered, assigned bus number 2
+SpyInfo_dmesg: fsl-ehci fsl-ehci.1: irq 72, io base 0x02184200
+SpyInfo_dmesg: fsl-ehci fsl-ehci.1: USB 2.0 started, EHCI 1.00
+SpyInfo_dmesg: hub 2-0:1.0: USB hub found
+SpyInfo_dmesg: hub 2-0:1.0: 1 port detected
+SpyInfo_dmesg: usbcore: registered new interface driver cdc_acm
+SpyInfo_dmesg: cdc_acm: USB Abstract Control Model driver for USB modems and ISDN adapters
+SpyInfo_dmesg: Initializing USB Mass Storage driver...
+SpyInfo_dmesg: usbcore: registered new interface driver usb-storage
+SpyInfo_dmesg: USB Mass Storage support registered.
+SpyInfo_dmesg: usbcore: registered new interface driver usbserial
+SpyInfo_dmesg: usbserial: USB Serial Driver core
+SpyInfo_dmesg: USB Serial support registered for ch341-uart
+SpyInfo_dmesg: usbcore: registered new interface driver ch341
+SpyInfo_dmesg: USB Serial support registered for pl2303
+SpyInfo_dmesg: usbcore: registered new interface driver pl2303
+SpyInfo_dmesg: pl2303: Prolific PL2303 USB to serial adaptor driver
+SpyInfo_dmesg: ARC USBOTG Device Controller driver (1 August 2005)
+SpyInfo_dmesg: mousedev: PS/2 mouse device common for all mice
+SpyInfo_dmesg: input: gpio-keys as /devices/platform/gpio-keys/input/input0
+SpyInfo_dmesg: Error: Driver 'tsc2007' is already registered, aborting...
+SpyInfo_dmesg: i2c-core: driver [isl29023] using legacy suspend method
+SpyInfo_dmesg: i2c-core: driver [isl29023] using legacy resume method
+SpyInfo_dmesg: rtc-rx8025 1-0032: rtc core: registered rx8025 as rtc0
+SpyInfo_dmesg: i2c /dev entries driver
+SpyInfo_dmesg: Linux video capture interface: v2.00
+SpyInfo_dmesg: mxc_v4l2_output mxc_v4l2_output.0: V4L2 device registered as video16
+SpyInfo_dmesg: mxc_v4l2_output mxc_v4l2_output.0: V4L2 device registered as video17
+SpyInfo_dmesg: gspca: v2.13.0 registered
+SpyInfo_dmesg: usbcore: registered new interface driver uvcvideo
+SpyInfo_dmesg: USB Video Class driver (v1.1.0)
+SpyInfo_dmesg: i2c-core: driver [mag3110] using legacy suspend method
+SpyInfo_dmesg: i2c-core: driver [mag3110] using legacy resume method
+SpyInfo_dmesg: imx2-wdt imx2-wdt.0: IMX2+ Watchdog Timer enabled. timeout=60s (nowayout=1)
+SpyInfo_dmesg: Bluetooth: Virtual HCI driver ver 1.3
+SpyInfo_dmesg: Bluetooth: HCI UART driver ver 2.2
+SpyInfo_dmesg: Bluetooth: HCIATH3K protocol initialized
+SpyInfo_dmesg: Bluetooth: Generic Bluetooth USB driver ver 0.6
+SpyInfo_dmesg: usbcore: registered new interface driver btusb
+SpyInfo_dmesg: sdhci: Secure Digital Host Controller Interface driver
+SpyInfo_dmesg: sdhci: Copyright(c) Pierre Ossman
+SpyInfo_dmesg: mmc0: SDHCI controller on platform [sdhci-esdhc-imx.3] using ADMA
+SpyInfo_dmesg: sdhci sdhci-esdhc-imx.2: no write-protect pin available!
+SpyInfo_dmesg: mmc1: SDHCI controller on platform [sdhci-esdhc-imx.2] using ADMA
+SpyInfo_dmesg: mxc_vdoa mxc_vdoa: i.MX Video Data Order Adapter(VDOA) driver probed
+SpyInfo_dmesg: VPU initialized
+SpyInfo_dmesg: mxc_asrc registered
+SpyInfo_dmesg: Thermal calibration data is 0x5b052d69
+SpyInfo_dmesg: Thermal sensor with ratio = 190
+SpyInfo_dmesg: Anatop Thermal registered as thermal_zone0
+SpyInfo_dmesg: anatop_thermal_probe: default cooling device is cpufreq!
+SpyInfo_dmesg: HDMI CEC initialized
+SpyInfo_dmesg: Registered led device: chg_now_led
+SpyInfo_dmesg: Registered led device: ALM_R1
+SpyInfo_dmesg: Registered led device: ALM_G1
+SpyInfo_dmesg: Registered led device: ALM_B1
+SpyInfo_dmesg: Registered led device: ALM_R2
+SpyInfo_dmesg: Registered led device: ALM_G2
+SpyInfo_dmesg: Registered led device: ALM_B2
+SpyInfo_dmesg: Registered led device: ALM_R3
+SpyInfo_dmesg: Registered led device: ALM_B3
+SpyInfo_dmesg: Registered led device: KBD_1
+SpyInfo_dmesg: Registered led device: KBD_2
+SpyInfo_dmesg: usb 2-1: new high speed USB device number 2 using fsl-ehci
+SpyInfo_dmesg: mmc0: new high speed DDR MMC card at address 0001
+SpyInfo_dmesg: mmcblk0: mmc0:0001 SEM04G 3.68 GiB 
+SpyInfo_dmesg: mmcblk0boot0: mmc0:0001 SEM04G partition 1 2.00 MiB
+SpyInfo_dmesg: mmcblk0boot1: mmc0:0001 SEM04G partition 2 2.00 MiB
+SpyInfo_dmesg:  mmcblk0: p1 p2 p3
+SpyInfo_dmesg:  mmcblk0boot1: unknown partition table
+SpyInfo_dmesg:  mmcblk0boot0: unknown partition table
+SpyInfo_dmesg: caam caam.0: device ID = 0x0a16010000000100
+SpyInfo_dmesg: caam caam.0: job rings = 2, qi = 0
+SpyInfo_dmesg: alg: No test for authenc(hmac(md5),cbc(aes)) (authenc-hmac-md5-cbc-aes-caam)
+SpyInfo_dmesg: caam caam.0: authenc-hmac-md5-cbc-aes-caam
+SpyInfo_dmesg: alg: No test for authenc(hmac(sha1),cbc(aes)) (authenc-hmac-sha1-cbc-aes-caam)
+SpyInfo_dmesg: caam caam.0: authenc-hmac-sha1-cbc-aes-caam
+SpyInfo_dmesg: alg: No test for authenc(hmac(sha224),cbc(aes)) (authenc-hmac-sha224-cbc-aes-caam)
+SpyInfo_dmesg: caam caam.0: authenc-hmac-sha224-cbc-aes-caam
+SpyInfo_dmesg: alg: No test for authenc(hmac(sha256),cbc(aes)) (authenc-hmac-sha256-cbc-aes-caam)
+SpyInfo_dmesg: caam caam.0: authenc-hmac-sha256-cbc-aes-caam
+SpyInfo_dmesg: alg: No test for authenc(hmac(md5),cbc(des3_ede)) (authenc-hmac-md5-cbc-des3_ede-caam)
+SpyInfo_dmesg: caam caam.0: authenc-hmac-md5-cbc-des3_ede-caam
+SpyInfo_dmesg: alg: No test for authenc(hmac(sha1),cbc(des3_ede)) (authenc-hmac-sha1-cbc-des3_ede-caam)
+SpyInfo_dmesg: hub 2-1:1.0: USB hub found
+SpyInfo_dmesg: hub 2-1:1.0: 7 ports detected
+SpyInfo_dmesg: caam caam.0: authenc-hmac-sha1-cbc-des3_ede-caam
+SpyInfo_dmesg: alg: No test for authenc(hmac(sha224),cbc(des3_ede)) (authenc-hmac-sha224-cbc-des3_ede-caam)
+SpyInfo_dmesg: caam caam.0: authenc-hmac-sha224-cbc-des3_ede-caam
+SpyInfo_dmesg: alg: No test for authenc(hmac(sha256),cbc(des3_ede)) (authenc-hmac-sha256-cbc-des3_ede-caam)
+SpyInfo_dmesg: caam caam.0: authenc-hmac-sha256-cbc-des3_ede-caam
+SpyInfo_dmesg: alg: No test for authenc(hmac(md5),cbc(des)) (authenc-hmac-md5-cbc-des-caam)
+SpyInfo_dmesg: caam caam.0: authenc-hmac-md5-cbc-des-caam
+SpyInfo_dmesg: alg: No test for authenc(hmac(sha1),cbc(des)) (authenc-hmac-sha1-cbc-des-caam)
+SpyInfo_dmesg: caam caam.0: authenc-hmac-sha1-cbc-des-caam
+SpyInfo_dmesg: alg: No test for authenc(hmac(sha224),cbc(des)) (authenc-hmac-sha224-cbc-des-caam)
+SpyInfo_dmesg: caam caam.0: authenc-hmac-sha224-cbc-des-caam
+SpyInfo_dmesg: alg: No test for authenc(hmac(sha256),cbc(des)) (authenc-hmac-sha256-cbc-des-caam)
+SpyInfo_dmesg: caam caam.0: authenc-hmac-sha256-cbc-des-caam
+SpyInfo_dmesg: caam caam.0: cbc-aes-caam
+SpyInfo_dmesg: caam caam.0: cbc-3des-caam
+SpyInfo_dmesg: caam caam.0: cbc-des-caam
+SpyInfo_dmesg: usb 2-1.3: new high speed USB device number 3 using fsl-ehci
+SpyInfo_dmesg: platform caam_jr.0: registering rng-caam
+SpyInfo_dmesg: usbcore: registered new interface driver usbhid
+SpyInfo_dmesg: usbhid: USB HID core driver
+SpyInfo_dmesg: usbcore: registered new interface driver snd-usb-audio
+SpyInfo_dmesg: USB Host suspend begins
+SpyInfo_dmesg: will suspend roothub and its children
+SpyInfo_dmesg: ehci_fsl_bus_suspend begins, DR
+SpyInfo_dmesg: ehci_fsl_bus_suspend ends, DR
+SpyInfo_dmesg: host suspend ends
+SpyInfo_dmesg: mxc_hdmi_soc mxc_hdmi_soc.0: MXC HDMI Audio
+SpyInfo_dmesg: imx-hdmi-soc-dai: probe of imx-hdmi-soc-dai.0 failed with error -12
+SpyInfo_dmesg: sgtl5000 0-000a: Failed to get supply 'VDDD': -19
+SpyInfo_dmesg: print_constraints: 0-000a: 850 <--> 1600 mV at 1200 mV normal 
+SpyInfo_dmesg: sgtl5000 0-000a: sgtl5000 revision 17
+SpyInfo_dmesg: asoc: sgtl5000 <-> imx-ssi.1 mapping ok
+SpyInfo_dmesg: ALSA device list:
+SpyInfo_dmesg:   #0: sgtl5000-audio
+SpyInfo_dmesg: NET: Registered protocol family 26
+SpyInfo_dmesg: TCP cubic registered
+SpyInfo_dmesg: NET: Registered protocol family 17
+SpyInfo_dmesg: can: controller area network core (rev 20090105 abi 8)
+SpyInfo_dmesg: NET: Registered protocol family 29
+SpyInfo_dmesg: can: raw protocol (rev 20090105)
+SpyInfo_dmesg: can: broadcast manager protocol (rev 20090105 t)
+SpyInfo_dmesg: scsi0 : usb-storage 2-1.3:1.0
+SpyInfo_dmesg: Bluetooth: RFCOMM TTY layer initialized
+SpyInfo_dmesg: Bluetooth: RFCOMM socket layer initialized
+SpyInfo_dmesg: Bluetooth: RFCOMM ver 1.11
+SpyInfo_dmesg: Bluetooth: BNEP (Ethernet Emulation) ver 1.3
+SpyInfo_dmesg: Bluetooth: BNEP filters: protocol multicast
+SpyInfo_dmesg: Bluetooth: HIDP (Human Interface Emulation) ver 1.2
+SpyInfo_dmesg: lib80211: common routines for IEEE802.11 drivers
+SpyInfo_dmesg: lib80211_crypt: registered algorithm 'NULL'
+SpyInfo_dmesg: lib80211_crypt: registered algorithm 'WEP'
+SpyInfo_dmesg: lib80211_crypt: registered algorithm 'CCMP'
+SpyInfo_dmesg: lib80211_crypt: registered algorithm 'TKIP'
+SpyInfo_dmesg: VFP support v0.3: implementor 41 architecture 3 part 30 variant 9 rev 4
+SpyInfo_dmesg: Bus freq driver module loaded
+SpyInfo_dmesg: Bus freq driver Enabled
+SpyInfo_dmesg: mxc_dvfs_core_probe
+SpyInfo_dmesg: DVFS driver module loaded
+SpyInfo_dmesg: rtc-rx8025 1-0032: setting system clock to 2013-12-21 15:51:43 UTC (1387641103)
+SpyInfo_dmesg: EXT3-fs: barriers not enabled
+SpyInfo_dmesg: usb 2-1.5: new full speed USB device number 4 using fsl-ehci
+SpyInfo_dmesg: EXT3-fs (mmcblk0p1): warning: maximal mount count reached, running e2fsck is recommended
+SpyInfo_dmesg: kjournald starting.  Commit interval 5 seconds
+SpyInfo_dmesg: EXT3-fs (mmcblk0p1): using internal journal
+SpyInfo_dmesg: EXT3-fs (mmcblk0p1): recovery complete
+SpyInfo_dmesg: EXT3-fs (mmcblk0p1): mounted filesystem with writeback data mode
+SpyInfo_dmesg: VFS: Mounted root (ext3 filesystem) on device 179:1.
+SpyInfo_dmesg: Freeing init memory: 208K
+SpyInfo_dmesg: input: eGalax Inc. USB TouchController as /devices/platform/fsl-ehci.1/usb2/2-1/2-1.5/2-1.5:1.0/input/input1
+SpyInfo_dmesg: input: eGalax Inc. USB TouchController as /devices/platform/fsl-ehci.1/usb2/2-1/2-1.5/2-1.5:1.0/input/input2
+SpyInfo_dmesg: input: eGalax Inc. USB TouchController as /devices/platform/fsl-ehci.1/usb2/2-1/2-1.5/2-1.5:1.0/input/input3
+SpyInfo_dmesg: input: eGalax Inc. USB TouchController as /devices/platform/fsl-ehci.1/usb2/2-1/2-1.5/2-1.5:1.0/input/input4
+SpyInfo_dmesg: input: eGalax Inc. USB TouchController as /devices/platform/fsl-ehci.1/usb2/2-1/2-1.5/2-1.5:1.0/input/input5
+SpyInfo_dmesg: generic-usb 0003:0EEF:0001.0001: input,hidraw0: USB HID v1.00 Pointer [eGalax Inc. USB TouchController] on usb-fsl-ehci.1-1.5/input0
+SpyInfo_dmesg: r8168: eth0: link down
+SpyInfo_dmesg: scsi 0:0:0:0: Direct-Access     Kingston DataTraveler 2.0 PMAP PQ: 0 ANSI: 4
+SpyInfo_dmesg: sd 0:0:0:0: [sda] 30489408 512-byte logical blocks: (15.6 GB/14.5 GiB)
+SpyInfo_dmesg: sd 0:0:0:0: [sda] Write Protect is off
+SpyInfo_dmesg: sd 0:0:0:0: [sda] Mode Sense: 23 00 00 00
+SpyInfo_dmesg: sd 0:0:0:0: [sda] No Caching mode page present
+SpyInfo_dmesg: sd 0:0:0:0: [sda] Assuming drive cache: write through
+SpyInfo_dmesg: sd 0:0:0:0: [sda] No Caching mode page present
+SpyInfo_dmesg: sd 0:0:0:0: [sda] Assuming drive cache: write through
+SpyInfo_dmesg:  sda: sda1
+SpyInfo_dmesg: sd 0:0:0:0: [sda] No Caching mode page present
+SpyInfo_dmesg: sd 0:0:0:0: [sda] Assuming drive cache: write through
+SpyInfo_dmesg: sd 0:0:0:0: [sda] Attached SCSI removable disk
+SpyInfo_dmesg: input: eGalaxTouch Virtual Device for Single as /devices/virtual/input/input6
+SpyInfo_dmesg: sandy 1 : 1 >>>>> sgtl5000 power AMP start
+SpyInfo_dmesg: sandy 1 : 2 >>>>> sgtl5000 power AMP start
+SpyInfo_dmesg: usb 2-1.3: reset high speed USB device number 3 using fsl-ehci
+SpyInfo_dmesg: usb 2-1.3: reset high speed USB device number 3 using fsl-ehci
+SpyInfo_dmesg: usb 2-1.3: reset high speed USB device number 3 using fsl-ehci
+SpyInfo_dmesg: usb 2-1.3: reset high speed USB device number 3 using fsl-ehci
+SpyInfo_dmesg: usb 2-1.3: reset high speed USB device number 3 using fsl-ehci
+SpyInfo_dmesg: usb 2-1.3: reset high speed USB device number 3 using fsl-ehci
+SpyInfo_dmesg: sandy 1 : 3 >>>>> sgtl5000 power AMP start
+SpyInfo_dmesg: sandy 1 : 4 >>>>> sgtl5000 power AMP start
+SpyInfo_dmesg: sandy 1 : 5 >>>>> sgtl5000 power AMP start
+SpyInfo_dmesg: sandy 1 : 6 >>>>> sgtl5000 power AMP start
+SpyInfo_dmesg: sandy 1 : 7 >>>>> sgtl5000 power AMP start
+SpyInfo_dmesg: sandy 1 : 8 >>>>> sgtl5000 power AMP start
+SpyInfo_dmesg: sandy 1 : 9 >>>>> sgtl5000 power AMP start
+SpyInfo_dmesg: sandy 1 : 10 >>>>> sgtl5000 power AMP start
+SpyInfo_dmesg: usb 2-1.3: USB disconnect, device number 3
+SpyInfo_dmesg: usb 2-1.1: new high speed USB device number 5 using fsl-ehci
+SpyInfo_dmesg: scsi1 : usb-storage 2-1.1:1.0
+SpyInfo_dmesg: scsi 1:0:0:0: Direct-Access     Kingston DataTraveler 2.0 PMAP PQ: 0 ANSI: 4
+SpyInfo_dmesg: sd 1:0:0:0: [sda] 30489408 512-byte logical blocks: (15.6 GB/14.5 GiB)
+SpyInfo_dmesg: sd 1:0:0:0: [sda] Write Protect is off
+SpyInfo_dmesg: sd 1:0:0:0: [sda] Mode Sense: 23 00 00 00
+SpyInfo_dmesg: sd 1:0:0:0: [sda] No Caching mode page present
+SpyInfo_dmesg: sd 1:0:0:0: [sda] Assuming drive cache: write through
+SpyInfo_dmesg: sd 1:0:0:0: [sda] No Caching mode page present
+SpyInfo_dmesg: sd 1:0:0:0: [sda] Assuming drive cache: write through
+SpyInfo_dmesg:  sda: sda1
+SpyInfo_dmesg: sd 1:0:0:0: [sda] No Caching mode page present
+SpyInfo_dmesg: sd 1:0:0:0: [sda] Assuming drive cache: write through
+SpyInfo_dmesg: sd 1:0:0:0: [sda] Attached SCSI removable disk
+SpyInfo_dmesg: umount: sending ioctl 4c01 to a partition!
+SpyInfo_dmesg: umount: sending ioctl 4c01 to a partition!
+SpyInfo_dmesg: sandy 1 : 11 >>>>> sgtl5000 power AMP start
+SpyInfo_dmesg: sandy 1 : 12 >>>>> sgtl5000 power AMP start
+2013.12.21 15:55:44 AppSpy.cpp@24, _saveSpyInfoOnce(): 
+
+##################################################
+Sat Dec 21 15:55:44 UTC 2013
+-------------------------------
+Top info:
+SpyInfo_top: Mem: 125592K used, 255332K free, 0K shrd, 3608K buff, 81928K cached
+SpyInfo_top: CPU: 18.1% usr 18.1% sys  0.0% nic 63.6% idle  0.0% io  0.0% irq  0.0% sirq
+SpyInfo_top: Load average: 2.74 1.59 0.66 2/58 1710
+SpyInfo_top:   PID  PPID USER     STAT   VSZ %VSZ CPU %CPU COMMAND
+SpyInfo_top:  1677     1 root     R    62848 16.4   0 18.1 /home/Suwen/bin/AppPm -qws
+SpyInfo_top:  1708  1706 root     R     2348  0.6   0  9.0 top -b -n 1
+SpyInfo_top:  1679     1 root     S    28312  7.4   0  0.0 /home/Suwen/bin/AppSpy
+SpyInfo_top:  1678     1 root     S    23168  6.0   0  0.0 /home/Suwen/bin/AppRecorder
+SpyInfo_top:  1484     1 root     S    12024  3.1   0  0.0 eGTouchD
+SpyInfo_top:  1482     1 root     S     2364  0.6   0  0.0 syslogd -SC
+SpyInfo_top:  1710  1706 root     S     2352  0.6   0  0.0 sed s/^/SpyInfo_top: /
+SpyInfo_top:     1     0 root     S     2348  0.6   0  0.0 init
+SpyInfo_top:  1500     1 root     S     2348  0.6   0  0.0 telnetd
+SpyInfo_top:  1502     1 root     S     2348  0.6   0  0.0 init
+SpyInfo_top:  1503     1 root     S     2348  0.6   0  0.0 init
+SpyInfo_top:  1504     1 root     S     2348  0.6   0  0.0 init
+SpyInfo_top:  1505     1 root     S     2348  0.6   0  0.0 init
+SpyInfo_top:  1706     1 root     S     2348  0.6   0  0.0 {AppSpyCmd.sh} /bin/sh /home/Suwen/bin/AppSpyCmd.sh /home/Suwen/log/AppSpy.log
+SpyInfo_top:  1709  1706 root     S     2220  0.5   0  0.0 head -n 20
+SpyInfo_top:   529     2 root     RW       0  0.0   0  0.0 [kworker/0:1]
+-------------------------------
+uptime info:
+SpyInfo_uptime:  15:55:44 up 4 min,  0 users,  load average: 2.73, 1.58, 0.65
+-------------------------------
+disk info:
+SpyInfo_disk: Filesystem                Size      Used Available Use% Mounted on
+SpyInfo_disk: /dev/root                 2.5G    191.3M      2.1G   8% /
+SpyInfo_disk: none                    186.0M      2.1M    183.8M   1% /tmp
+SpyInfo_disk: none                    186.0M      8.0K    186.0M   0% /var
+SpyInfo_disk: none                     64.0K         0     64.0K   0% /dev
+-------------------------------
+dmesg info:
+SpyInfo_dmesg: usb 2-1.1: USB disconnect, device number 5
+2013.12.21 15:56:44 AppSpy.cpp@24, _saveSpyInfoOnce(): 
+
+##################################################
+Sat Dec 21 15:56:44 UTC 2013
+-------------------------------
+Top info:
+SpyInfo_top: Mem: 129476K used, 251448K free, 0K shrd, 3624K buff, 81936K cached
+SpyInfo_top: CPU: 20.0% usr  0.0% sys  0.0% nic 80.0% idle  0.0% io  0.0% irq  0.0% sirq
+SpyInfo_top: Load average: 3.02 1.85 0.81 2/56 1722
+SpyInfo_top:   PID  PPID USER     STAT   VSZ %VSZ CPU %CPU COMMAND
+SpyInfo_top:  1677     1 root     R    66464 17.4   0 10.0 /home/Suwen/bin/AppPm -qws
+SpyInfo_top:  1720  1718 root     R     2348  0.6   0  5.0 top -b -n 1
+SpyInfo_top:   529     2 root     RW       0  0.0   0  5.0 [kworker/0:1]
+SpyInfo_top:  1679     1 root     S    28312  7.4   0  0.0 /home/Suwen/bin/AppSpy
+SpyInfo_top:  1678     1 root     S    26764  7.0   0  0.0 /home/Suwen/bin/AppRecorder
+SpyInfo_top:  1484     1 root     S    12024  3.1   0  0.0 eGTouchD
+SpyInfo_top:  1482     1 root     S     2364  0.6   0  0.0 syslogd -SC
+SpyInfo_top:  1722  1718 root     S     2352  0.6   0  0.0 sed s/^/SpyInfo_top: /
+SpyInfo_top:     1     0 root     S     2348  0.6   0  0.0 init
+SpyInfo_top:  1500     1 root     S     2348  0.6   0  0.0 telnetd
+SpyInfo_top:  1502     1 root     S     2348  0.6   0  0.0 init
+SpyInfo_top:  1503     1 root     S     2348  0.6   0  0.0 init
+SpyInfo_top:  1504     1 root     S     2348  0.6   0  0.0 init
+SpyInfo_top:  1505     1 root     S     2348  0.6   0  0.0 init
+SpyInfo_top:  1718     1 root     S     2348  0.6   0  0.0 {AppSpyCmd.sh} /bin/sh /home/Suwen/bin/AppSpyCmd.sh /home/Suwen/log/AppSpy.log
+SpyInfo_top:  1721  1718 root     S     2220  0.5   0  0.0 head -n 20
+-------------------------------
+uptime info:
+SpyInfo_uptime:  15:56:44 up 5 min,  0 users,  load average: 3.02, 1.85, 0.80
+-------------------------------
+disk info:
+SpyInfo_disk: Filesystem                Size      Used Available Use% Mounted on
+SpyInfo_disk: /dev/root                 2.5G    191.3M      2.1G   8% /
+SpyInfo_disk: none                    186.0M      2.2M    183.8M   1% /tmp
+SpyInfo_disk: none                    186.0M      8.0K    186.0M   0% /var
+SpyInfo_disk: none                     64.0K         0     64.0K   0% /dev
+-------------------------------
+dmesg info:
+2013.12.21 15:57:44 AppSpy.cpp@24, _saveSpyInfoOnce(): 
+
+##################################################
+Sat Dec 21 15:57:44 UTC 2013
+-------------------------------
+Top info:
+SpyInfo_top: Mem: 130992K used, 249932K free, 0K shrd, 3640K buff, 81936K cached
+SpyInfo_top: CPU:  9.0% usr  9.0% sys  0.0% nic 81.8% idle  0.0% io  0.0% irq  0.0% sirq
+SpyInfo_top: Load average: 2.86 2.03 0.93 1/56 1734
+SpyInfo_top:   PID  PPID USER     STAT   VSZ %VSZ CPU %CPU COMMAND
+SpyInfo_top:  1677     1 root     R    66464 17.4   0  9.0 /home/Suwen/bin/AppPm -qws
+SpyInfo_top:  1732  1730 root     R     2348  0.6   0  9.0 top -b -n 1
+SpyInfo_top:  1679     1 root     S    28312  7.4   0  0.0 /home/Suwen/bin/AppSpy
+SpyInfo_top:  1678     1 root     S    26764  7.0   0  0.0 /home/Suwen/bin/AppRecorder
+SpyInfo_top:  1484     1 root     S    12024  3.1   0  0.0 eGTouchD
+SpyInfo_top:  1482     1 root     S     2364  0.6   0  0.0 syslogd -SC
+SpyInfo_top:  1734  1730 root     S     2352  0.6   0  0.0 sed s/^/SpyInfo_top: /
+SpyInfo_top:     1     0 root     S     2348  0.6   0  0.0 init
+SpyInfo_top:  1500     1 root     S     2348  0.6   0  0.0 telnetd
+SpyInfo_top:  1502     1 root     S     2348  0.6   0  0.0 init
+SpyInfo_top:  1503     1 root     S     2348  0.6   0  0.0 init
+SpyInfo_top:  1504     1 root     S     2348  0.6   0  0.0 init
+SpyInfo_top:  1505     1 root     S     2348  0.6   0  0.0 init
+SpyInfo_top:  1730     1 root     S     2348  0.6   0  0.0 {AppSpyCmd.sh} /bin/sh /home/Suwen/bin/AppSpyCmd.sh /home/Suwen/log/AppSpy.log
+SpyInfo_top:  1733  1730 root     S     2220  0.5   0  0.0 head -n 20
+SpyInfo_top:   529     2 root     SW       0  0.0   0  0.0 [kworker/0:1]
+-------------------------------
+uptime info:
+SpyInfo_uptime:  15:57:44 up 6 min,  0 users,  load average: 2.85, 2.02, 0.93
+-------------------------------
+disk info:
+SpyInfo_disk: Filesystem                Size      Used Available Use% Mounted on
+SpyInfo_disk: /dev/root                 2.5G    191.3M      2.1G   8% /
+SpyInfo_disk: none                    186.0M      2.2M    183.8M   1% /tmp
+SpyInfo_disk: none                    186.0M      8.0K    186.0M   0% /var
+SpyInfo_disk: none                     64.0K         0     64.0K   0% /dev
+-------------------------------
+dmesg info:
+2013.12.21 15:58:44 AppSpy.cpp@24, _saveSpyInfoOnce(): 
+
+##################################################
+Sat Dec 21 15:58:44 UTC 2013
+-------------------------------
+Top info:
+SpyInfo_top: Mem: 132544K used, 248380K free, 0K shrd, 3656K buff, 81940K cached
+SpyInfo_top: CPU:  0.0% usr  0.0% sys  0.0% nic  100% idle  0.0% io  0.0% irq  0.0% sirq
+SpyInfo_top: Load average: 2.65 2.14 1.04 4/56 1747
+SpyInfo_top:   PID  PPID USER     STAT   VSZ %VSZ CPU %CPU COMMAND
+SpyInfo_top:  1677     1 root     R    66464 17.4   0  0.0 /home/Suwen/bin/AppPm -qws
+SpyInfo_top:  1745  1743 root     R     2348  0.6   0  0.0 top -b -n 1
+SpyInfo_top:  1741     2 root     RW       0  0.0   0  0.0 [kworker/0:0]
+SpyInfo_top:  1679     1 root     S    28312  7.4   0  0.0 /home/Suwen/bin/AppSpy
+SpyInfo_top:  1678     1 root     S    26764  7.0   0  0.0 /home/Suwen/bin/AppRecorder
+SpyInfo_top:  1484     1 root     S    12024  3.1   0  0.0 eGTouchD
+SpyInfo_top:  1482     1 root     S     2364  0.6   0  0.0 syslogd -SC
+SpyInfo_top:  1747  1743 root     S     2352  0.6   0  0.0 sed s/^/SpyInfo_top: /
+SpyInfo_top:     1     0 root     S     2348  0.6   0  0.0 init
+SpyInfo_top:  1500     1 root     S     2348  0.6   0  0.0 telnetd
+SpyInfo_top:  1502     1 root     S     2348  0.6   0  0.0 init
+SpyInfo_top:  1503     1 root     S     2348  0.6   0  0.0 init
+SpyInfo_top:  1504     1 root     S     2348  0.6   0  0.0 init
+SpyInfo_top:  1505     1 root     S     2348  0.6   0  0.0 init
+SpyInfo_top:  1743     1 root     S     2348  0.6   0  0.0 {AppSpyCmd.sh} /bin/sh /home/Suwen/bin/AppSpyCmd.sh /home/Suwen/log/AppSpy.log
+SpyInfo_top:  1746  1743 root     S     2220  0.5   0  0.0 head -n 20
+-------------------------------
+uptime info:
+SpyInfo_uptime:  15:58:44 up 7 min,  0 users,  load average: 2.64, 2.13, 1.04
+-------------------------------
+disk info:
+SpyInfo_disk: Filesystem                Size      Used Available Use% Mounted on
+SpyInfo_disk: /dev/root                 2.5G    191.3M      2.1G   8% /
+SpyInfo_disk: none                    186.0M      2.2M    183.8M   1% /tmp
+SpyInfo_disk: none                    186.0M      8.0K    186.0M   0% /var
+SpyInfo_disk: none                     64.0K         0     64.0K   0% /dev
+-------------------------------
+dmesg info:
+2013.12.21 15:59:44 AppSpy.cpp@24, _saveSpyInfoOnce(): 
+
+##################################################
+Sat Dec 21 15:59:44 UTC 2013
+-------------------------------
+Top info:
+SpyInfo_top: Mem: 134156K used, 246768K free, 0K shrd, 3672K buff, 81940K cached
+SpyInfo_top: CPU: 10.0% usr 20.0% sys  0.0% nic 70.0% idle  0.0% io  0.0% irq  0.0% sirq
+SpyInfo_top: Load average: 2.57 2.21 1.13 1/56 1759
+SpyInfo_top:   PID  PPID USER     STAT   VSZ %VSZ CPU %CPU COMMAND
+SpyInfo_top:  1677     1 root     R    66464 17.4   0 22.5 /home/Suwen/bin/AppPm -qws
+SpyInfo_top:  1757  1755 root     R     2348  0.6   0  7.5 top -b -n 1
+SpyInfo_top:  1679     1 root     S    28312  7.4   0  0.0 /home/Suwen/bin/AppSpy
+SpyInfo_top:  1678     1 root     S    27024  7.0   0  0.0 /home/Suwen/bin/AppRecorder
+SpyInfo_top:  1484     1 root     S    12024  3.1   0  0.0 eGTouchD
+SpyInfo_top:  1482     1 root     S     2364  0.6   0  0.0 syslogd -SC
+SpyInfo_top:  1759  1755 root     S     2352  0.6   0  0.0 sed s/^/SpyInfo_top: /
+SpyInfo_top:     1     0 root     S     2348  0.6   0  0.0 init
+SpyInfo_top:  1500     1 root     S     2348  0.6   0  0.0 telnetd
+SpyInfo_top:  1502     1 root     S     2348  0.6   0  0.0 init
+SpyInfo_top:  1503     1 root     S     2348  0.6   0  0.0 init
+SpyInfo_top:  1504     1 root     S     2348  0.6   0  0.0 init
+SpyInfo_top:  1505     1 root     S     2348  0.6   0  0.0 init
+SpyInfo_top:  1755     1 root     S     2348  0.6   0  0.0 {AppSpyCmd.sh} /bin/sh /home/Suwen/bin/AppSpyCmd.sh /home/Suwen/log/AppSpy.log
+SpyInfo_top:  1758  1755 root     S     2220  0.5   0  0.0 head -n 20
+SpyInfo_top:   529     2 root     SW       0  0.0   0  0.0 [kworker/0:1]
+-------------------------------
+uptime info:
+SpyInfo_uptime:  15:59:44 up 8 min,  0 users,  load average: 2.57, 2.20, 1.13
+-------------------------------
+disk info:
+SpyInfo_disk: Filesystem                Size      Used Available Use% Mounted on
+SpyInfo_disk: /dev/root                 2.5G    191.3M      2.1G   8% /
+SpyInfo_disk: none                    186.0M      2.2M    183.8M   1% /tmp
+SpyInfo_disk: none                    186.0M      8.0K    186.0M   0% /var
+SpyInfo_disk: none                     64.0K         0     64.0K   0% /dev
+-------------------------------
+dmesg info:
+2013.12.21 16:00:44 AppSpy.cpp@24, _saveSpyInfoOnce(): 
+
+##################################################
+Sat Dec 21 16:00:44 UTC 2013
+-------------------------------
+Top info:
+SpyInfo_top: Mem: 137944K used, 242980K free, 0K shrd, 3688K buff, 81944K cached
+SpyInfo_top: CPU: 10.0% usr  0.0% sys  0.0% nic 90.0% idle  0.0% io  0.0% irq  0.0% sirq
+SpyInfo_top: Load average: 2.43 2.23 1.21 4/56 1771
+SpyInfo_top:   PID  PPID USER     STAT   VSZ %VSZ CPU %CPU COMMAND
+SpyInfo_top:  1677     1 root     R    74160 19.4   0  5.0 /home/Suwen/bin/AppPm -qws
+SpyInfo_top:  1769  1767 root     R     2348  0.6   0  2.5 top -b -n 1
+SpyInfo_top:  1741     2 root     RW       0  0.0   0  2.5 [kworker/0:0]
+SpyInfo_top:  1678     1 root     S    33296  8.7   0  0.0 /home/Suwen/bin/AppRecorder
+SpyInfo_top:  1679     1 root     S    28312  7.4   0  0.0 /home/Suwen/bin/AppSpy
+SpyInfo_top:  1484     1 root     S    12024  3.1   0  0.0 eGTouchD
+SpyInfo_top:  1482     1 root     S     2364  0.6   0  0.0 syslogd -SC
+SpyInfo_top:  1771  1767 root     S     2352  0.6   0  0.0 sed s/^/SpyInfo_top: /
+SpyInfo_top:     1     0 root     S     2348  0.6   0  0.0 init
+SpyInfo_top:  1500     1 root     S     2348  0.6   0  0.0 telnetd
+SpyInfo_top:  1502     1 root     S     2348  0.6   0  0.0 init
+SpyInfo_top:  1503     1 root     S     2348  0.6   0  0.0 init
+SpyInfo_top:  1504     1 root     S     2348  0.6   0  0.0 init
+SpyInfo_top:  1505     1 root     S     2348  0.6   0  0.0 init
+SpyInfo_top:  1767     1 root     S     2348  0.6   0  0.0 {AppSpyCmd.sh} /bin/sh /home/Suwen/bin/AppSpyCmd.sh /home/Suwen/log/AppSpy.log
+SpyInfo_top:  1770  1767 root     S     2220  0.5   0  0.0 head -n 20
+-------------------------------
+uptime info:
+SpyInfo_uptime:  16:00:44 up 9 min,  0 users,  load average: 2.43, 2.22, 1.20
+-------------------------------
+disk info:
+SpyInfo_disk: Filesystem                Size      Used Available Use% Mounted on
+SpyInfo_disk: /dev/root                 2.5G    191.3M      2.1G   8% /
+SpyInfo_disk: none                    186.0M      2.2M    183.8M   1% /tmp
+SpyInfo_disk: none                    186.0M      8.0K    186.0M   0% /var
+SpyInfo_disk: none                     64.0K         0     64.0K   0% /dev
+-------------------------------
+dmesg info:
+2013.12.21 16:01:44 AppSpy.cpp@24, _saveSpyInfoOnce(): 
+
+##################################################
+Sat Dec 21 16:01:44 UTC 2013
+-------------------------------
+Top info:
+SpyInfo_top: Mem: 139744K used, 241180K free, 0K shrd, 3704K buff, 81948K cached
+SpyInfo_top: CPU: 10.0% usr  0.0% sys  0.0% nic 90.0% idle  0.0% io  0.0% irq  0.0% sirq
+SpyInfo_top: Load average: 2.37 2.25 1.28 4/56 1783
+SpyInfo_top:   PID  PPID USER     STAT   VSZ %VSZ CPU %CPU COMMAND
+SpyInfo_top:  1677     1 root     R    74160 19.4   0  5.0 /home/Suwen/bin/AppPm -qws
+SpyInfo_top:  1781  1779 root     R     2348  0.6   0  5.0 top -b -n 1
+SpyInfo_top:  1678     1 root     S    33296  8.7   0  0.0 /home/Suwen/bin/AppRecorder
+SpyInfo_top:  1679     1 root     S    28312  7.4   0  0.0 /home/Suwen/bin/AppSpy
+SpyInfo_top:  1484     1 root     S    12024  3.1   0  0.0 eGTouchD
+SpyInfo_top:  1482     1 root     S     2364  0.6   0  0.0 syslogd -SC
+SpyInfo_top:  1783  1779 root     S     2352  0.6   0  0.0 sed s/^/SpyInfo_top: /
+SpyInfo_top:     1     0 root     S     2348  0.6   0  0.0 init
+SpyInfo_top:  1500     1 root     S     2348  0.6   0  0.0 telnetd
+SpyInfo_top:  1502     1 root     S     2348  0.6   0  0.0 init
+SpyInfo_top:  1503     1 root     S     2348  0.6   0  0.0 init
+SpyInfo_top:  1504     1 root     S     2348  0.6   0  0.0 init
+SpyInfo_top:  1505     1 root     S     2348  0.6   0  0.0 init
+SpyInfo_top:  1779     1 root     S     2348  0.6   0  0.0 {AppSpyCmd.sh} /bin/sh /home/Suwen/bin/AppSpyCmd.sh /home/Suwen/log/AppSpy.log
+SpyInfo_top:  1782  1779 root     S     2220  0.5   0  0.0 head -n 20
+SpyInfo_top:   529     2 root     SW       0  0.0   0  0.0 [kworker/0:1]
+-------------------------------
+uptime info:
+SpyInfo_uptime:  16:01:44 up 10 min,  0 users,  load average: 2.37, 2.24, 1.27
+-------------------------------
+disk info:
+SpyInfo_disk: Filesystem                Size      Used Available Use% Mounted on
+SpyInfo_disk: /dev/root                 2.5G    191.3M      2.1G   8% /
+SpyInfo_disk: none                    186.0M      2.2M    183.8M   1% /tmp
+SpyInfo_disk: none                    186.0M      8.0K    186.0M   0% /var
+SpyInfo_disk: none                     64.0K         0     64.0K   0% /dev
+-------------------------------
+dmesg info:
+2013.12.21 16:02:44 AppSpy.cpp@24, _saveSpyInfoOnce(): 
+
+##################################################
+Sat Dec 21 16:02:44 UTC 2013
+-------------------------------
+Top info:
+SpyInfo_top: Mem: 141672K used, 239252K free, 0K shrd, 3720K buff, 81948K cached
+SpyInfo_top: CPU: 10.0% usr  0.0% sys  0.0% nic 90.0% idle  0.0% io  0.0% irq  0.0% sirq
+SpyInfo_top: Load average: 2.73 2.36 1.38 4/56 1795
+SpyInfo_top:   PID  PPID USER     STAT   VSZ %VSZ CPU %CPU COMMAND
+SpyInfo_top:  1677     1 root     R    74160 19.4   0  6.6 /home/Suwen/bin/AppPm -qws
+SpyInfo_top:  1793  1791 root     R     2348  0.6   0  3.3 top -b -n 1
+SpyInfo_top:  1678     1 root     S    33296  8.7   0  0.0 /home/Suwen/bin/AppRecorder
+SpyInfo_top:  1679     1 root     S    28312  7.4   0  0.0 /home/Suwen/bin/AppSpy
+SpyInfo_top:  1484     1 root     S    12024  3.1   0  0.0 eGTouchD
+SpyInfo_top:  1482     1 root     S     2364  0.6   0  0.0 syslogd -SC
+SpyInfo_top:  1795  1791 root     S     2352  0.6   0  0.0 sed s/^/SpyInfo_top: /
+SpyInfo_top:     1     0 root     S     2348  0.6   0  0.0 init
+SpyInfo_top:  1500     1 root     S     2348  0.6   0  0.0 telnetd
+SpyInfo_top:  1502     1 root     S     2348  0.6   0  0.0 init
+SpyInfo_top:  1503     1 root     S     2348  0.6   0  0.0 init
+SpyInfo_top:  1504     1 root     S     2348  0.6   0  0.0 init
+SpyInfo_top:  1505     1 root     S     2348  0.6   0  0.0 init
+SpyInfo_top:  1791     1 root     S     2348  0.6   0  0.0 {AppSpyCmd.sh} /bin/sh /home/Suwen/bin/AppSpyCmd.sh /home/Suwen/log/AppSpy.log
+SpyInfo_top:  1794  1791 root     S     2220  0.5   0  0.0 head -n 20
+SpyInfo_top:   529     2 root     SW       0  0.0   0  0.0 [kworker/0:1]
+-------------------------------
+uptime info:
+SpyInfo_uptime:  16:02:44 up 11 min,  0 users,  load average: 2.72, 2.36, 1.37
+-------------------------------
+disk info:
+SpyInfo_disk: Filesystem                Size      Used Available Use% Mounted on
+SpyInfo_disk: /dev/root                 2.5G    191.3M      2.1G   8% /
+SpyInfo_disk: none                    186.0M      2.2M    183.8M   1% /tmp
+SpyInfo_disk: none                    186.0M      8.0K    186.0M   0% /var
+SpyInfo_disk: none                     64.0K         0     64.0K   0% /dev
+-------------------------------
+dmesg info:
+2013.12.21 16:03:44 AppSpy.cpp@24, _saveSpyInfoOnce(): 
+
+##################################################
+Sat Dec 21 16:03:44 UTC 2013
+-------------------------------
+Top info:
+SpyInfo_top: Mem: 143464K used, 237460K free, 0K shrd, 3736K buff, 81952K cached
+SpyInfo_top: CPU:  0.0% usr 10.0% sys  0.0% nic 90.0% idle  0.0% io  0.0% irq  0.0% sirq
+SpyInfo_top: Load average: 2.64 2.40 1.45 1/56 1808
+SpyInfo_top:   PID  PPID USER     STAT   VSZ %VSZ CPU %CPU COMMAND
+SpyInfo_top:  1677     1 root     R    74160 19.4   0  5.0 /home/Suwen/bin/AppPm -qws
+SpyInfo_top:  1806  1804 root     R     2348  0.6   0  5.0 top -b -n 1
+SpyInfo_top:  1678     1 root     S    33296  8.7   0  0.0 /home/Suwen/bin/AppRecorder
+SpyInfo_top:  1679     1 root     S    28312  7.4   0  0.0 /home/Suwen/bin/AppSpy
+SpyInfo_top:  1484     1 root     S    12024  3.1   0  0.0 eGTouchD
+SpyInfo_top:  1482     1 root     S     2364  0.6   0  0.0 syslogd -SC
+SpyInfo_top:  1808  1804 root     S     2352  0.6   0  0.0 sed s/^/SpyInfo_top: /
+SpyInfo_top:     1     0 root     S     2348  0.6   0  0.0 init
+SpyInfo_top:  1500     1 root     S     2348  0.6   0  0.0 telnetd
+SpyInfo_top:  1502     1 root     S     2348  0.6   0  0.0 init
+SpyInfo_top:  1503     1 root     S     2348  0.6   0  0.0 init
+SpyInfo_top:  1504     1 root     S     2348  0.6   0  0.0 init
+SpyInfo_top:  1505     1 root     S     2348  0.6   0  0.0 init
+SpyInfo_top:  1804     1 root     S     2348  0.6   0  0.0 {AppSpyCmd.sh} /bin/sh /home/Suwen/bin/AppSpyCmd.sh /home/Suwen/log/AppSpy.log
+SpyInfo_top:  1807  1804 root     S     2220  0.5   0  0.0 head -n 20
+SpyInfo_top:  1517     2 root     SW       0  0.0   0  0.0 [kworker/0:3]
+-------------------------------
+uptime info:
+SpyInfo_uptime:  16:03:44 up 12 min,  0 users,  load average: 2.63, 2.40, 1.45
+-------------------------------
+disk info:
+SpyInfo_disk: Filesystem                Size      Used Available Use% Mounted on
+SpyInfo_disk: /dev/root                 2.5G    191.3M      2.1G   8% /
+SpyInfo_disk: none                    186.0M      2.2M    183.8M   1% /tmp
+SpyInfo_disk: none                    186.0M      8.0K    186.0M   0% /var
+SpyInfo_disk: none                     64.0K         0     64.0K   0% /dev
+-------------------------------
+dmesg info:
+2013.12.21 16:04:44 AppSpy.cpp@24, _saveSpyInfoOnce(): 
+
+##################################################
+Sat Dec 21 16:04:44 UTC 2013
+-------------------------------
+Top info:
+SpyInfo_top: Mem: 145316K used, 235608K free, 0K shrd, 3752K buff, 81952K cached
+SpyInfo_top: CPU:  0.0% usr  0.0% sys  0.0% nic  100% idle  0.0% io  0.0% irq  0.0% sirq
+SpyInfo_top: Load average: 2.69 2.46 1.53 2/56 1820
+SpyInfo_top:   PID  PPID USER     STAT   VSZ %VSZ CPU %CPU COMMAND
+SpyInfo_top:  1677     1 root     R    74160 19.4   0  0.0 /home/Suwen/bin/AppPm -qws
+SpyInfo_top:  1818  1816 root     R     2348  0.6   0  0.0 top -b -n 1
+SpyInfo_top:  1802     2 root     SW       0  0.0   0  0.0 [kworker/0:1]
+SpyInfo_top:  1678     1 root     S    33296  8.7   0  0.0 /home/Suwen/bin/AppRecorder
+SpyInfo_top:  1679     1 root     S    28312  7.4   0  0.0 /home/Suwen/bin/AppSpy
+SpyInfo_top:  1484     1 root     S    12024  3.1   0  0.0 eGTouchD
+SpyInfo_top:  1482     1 root     S     2364  0.6   0  0.0 syslogd -SC
+SpyInfo_top:  1820  1816 root     S     2352  0.6   0  0.0 sed s/^/SpyInfo_top: /
+SpyInfo_top:     1     0 root     S     2348  0.6   0  0.0 init
+SpyInfo_top:  1500     1 root     S     2348  0.6   0  0.0 telnetd
+SpyInfo_top:  1502     1 root     S     2348  0.6   0  0.0 init
+SpyInfo_top:  1503     1 root     S     2348  0.6   0  0.0 init
+SpyInfo_top:  1504     1 root     S     2348  0.6   0  0.0 init
+SpyInfo_top:  1505     1 root     S     2348  0.6   0  0.0 init
+SpyInfo_top:  1816     1 root     S     2348  0.6   0  0.0 {AppSpyCmd.sh} /bin/sh /home/Suwen/bin/AppSpyCmd.sh /home/Suwen/log/AppSpy.log
+SpyInfo_top:  1819  1816 root     S     2220  0.5   0  0.0 head -n 20
+-------------------------------
+uptime info:
+SpyInfo_uptime:  16:04:44 up 13 min,  0 users,  load average: 2.69, 2.46, 1.53
+-------------------------------
+disk info:
+SpyInfo_disk: Filesystem                Size      Used Available Use% Mounted on
+SpyInfo_disk: /dev/root                 2.5G    191.3M      2.1G   8% /
+SpyInfo_disk: none                    186.0M      2.2M    183.8M   1% /tmp
+SpyInfo_disk: none                    186.0M      8.0K    186.0M   0% /var
+SpyInfo_disk: none                     64.0K         0     64.0K   0% /dev
+-------------------------------
+dmesg info:
+2013.12.21 16:05:44 AppSpy.cpp@24, _saveSpyInfoOnce(): 
+
+##################################################
+Sat Dec 21 16:05:44 UTC 2013
+-------------------------------
+Top info:
+SpyInfo_top: Mem: 147176K used, 233748K free, 0K shrd, 3776K buff, 81948K cached
+SpyInfo_top: CPU:  0.0% usr  9.0% sys  0.0% nic 90.9% idle  0.0% io  0.0% irq  0.0% sirq
+SpyInfo_top: Load average: 3.03 2.63 1.65 2/56 1832
+SpyInfo_top:   PID  PPID USER     STAT   VSZ %VSZ CPU %CPU COMMAND
+SpyInfo_top:  1677     1 root     R    74160 19.4   0  6.0 /home/Suwen/bin/AppPm -qws
+SpyInfo_top:  1830  1828 root     R     2348  0.6   0  3.0 top -b -n 1
+SpyInfo_top:  1678     1 root     S    33296  8.7   0  0.0 /home/Suwen/bin/AppRecorder
+SpyInfo_top:  1679     1 root     S    28312  7.4   0  0.0 /home/Suwen/bin/AppSpy
+SpyInfo_top:  1484     1 root     S    12024  3.1   0  0.0 eGTouchD
+SpyInfo_top:  1482     1 root     S     2364  0.6   0  0.0 syslogd -SC
+SpyInfo_top:  1832  1828 root     S     2352  0.6   0  0.0 sed s/^/SpyInfo_top: /
+SpyInfo_top:     1     0 root     S     2348  0.6   0  0.0 init
+SpyInfo_top:  1500     1 root     S     2348  0.6   0  0.0 telnetd
+SpyInfo_top:  1502     1 root     S     2348  0.6   0  0.0 init
+SpyInfo_top:  1503     1 root     S     2348  0.6   0  0.0 init
+SpyInfo_top:  1504     1 root     S     2348  0.6   0  0.0 init
+SpyInfo_top:  1505     1 root     S     2348  0.6   0  0.0 init
+SpyInfo_top:  1828     1 root     S     2348  0.6   0  0.0 {AppSpyCmd.sh} /bin/sh /home/Suwen/bin/AppSpyCmd.sh /home/Suwen/log/AppSpy.log
+SpyInfo_top:  1831  1828 root     S     2220  0.5   0  0.0 head -n 20
+SpyInfo_top:  1517     2 root     SW       0  0.0   0  0.0 [kworker/0:3]
+-------------------------------
+uptime info:
+SpyInfo_uptime:  16:05:44 up 14 min,  0 users,  load average: 3.02, 2.62, 1.64
+-------------------------------
+disk info:
+SpyInfo_disk: Filesystem                Size      Used Available Use% Mounted on
+SpyInfo_disk: /dev/root                 2.5G    191.3M      2.1G   8% /
+SpyInfo_disk: none                    186.0M      2.2M    183.8M   1% /tmp
+SpyInfo_disk: none                    186.0M      8.0K    186.0M   0% /var
+SpyInfo_disk: none                     64.0K         0     64.0K   0% /dev
+-------------------------------
+dmesg info:
+2013.12.21 16:06:44 AppSpy.cpp@24, _saveSpyInfoOnce(): 
+
+##################################################
+Sat Dec 21 16:06:44 UTC 2013
+-------------------------------
+Top info:
+SpyInfo_top: Mem: 148504K used, 232420K free, 0K shrd, 3800K buff, 81948K cached
+SpyInfo_top: CPU: 10.0% usr 20.0% sys  0.0% nic 70.0% idle  0.0% io  0.0% irq  0.0% sirq
+SpyInfo_top: Load average: 2.81 2.63 1.71 1/56 1844
+SpyInfo_top:   PID  PPID USER     STAT   VSZ %VSZ CPU %CPU COMMAND
+SpyInfo_top:  1677     1 root     R    74160 19.4   0 22.5 /home/Suwen/bin/AppPm -qws
+SpyInfo_top:  1842  1840 root     R     2348  0.6   0  7.5 top -b -n 1
+SpyInfo_top:  1678     1 root     S    33296  8.7   0  0.0 /home/Suwen/bin/AppRecorder
+SpyInfo_top:  1679     1 root     S    28312  7.4   0  0.0 /home/Suwen/bin/AppSpy
+SpyInfo_top:  1484     1 root     S    12024  3.1   0  0.0 eGTouchD
+SpyInfo_top:  1482     1 root     S     2364  0.6   0  0.0 syslogd -SC
+SpyInfo_top:  1844  1840 root     S     2352  0.6   0  0.0 sed s/^/SpyInfo_top: /
+SpyInfo_top:     1     0 root     S     2348  0.6   0  0.0 init
+SpyInfo_top:  1500     1 root     S     2348  0.6   0  0.0 telnetd
+SpyInfo_top:  1502     1 root     S     2348  0.6   0  0.0 init
+SpyInfo_top:  1503     1 root     S     2348  0.6   0  0.0 init
+SpyInfo_top:  1504     1 root     S     2348  0.6   0  0.0 init
+SpyInfo_top:  1505     1 root     S     2348  0.6   0  0.0 init
+SpyInfo_top:  1840     1 root     S     2348  0.6   0  0.0 {AppSpyCmd.sh} /bin/sh /home/Suwen/bin/AppSpyCmd.sh /home/Suwen/log/AppSpy.log
+SpyInfo_top:  1843  1840 root     S     2220  0.5   0  0.0 head -n 20
+SpyInfo_top:  1517     2 root     SW       0  0.0   0  0.0 [kworker/0:3]
+-------------------------------
+uptime info:
+SpyInfo_uptime:  16:06:44 up 15 min,  0 users,  load average: 2.81, 2.62, 1.70
+-------------------------------
+disk info:
+SpyInfo_disk: Filesystem                Size      Used Available Use% Mounted on
+SpyInfo_disk: /dev/root                 2.5G    191.3M      2.1G   8% /
+SpyInfo_disk: none                    186.0M      2.2M    183.8M   1% /tmp
+SpyInfo_disk: none                    186.0M      8.0K    186.0M   0% /var
+SpyInfo_disk: none                     64.0K         0     64.0K   0% /dev
+-------------------------------
+dmesg info:
+2013.12.21 16:07:44 AppSpy.cpp@24, _saveSpyInfoOnce(): 
+
+##################################################
+Sat Dec 21 16:07:44 UTC 2013
+-------------------------------
+Top info:
+SpyInfo_top: Mem: 148684K used, 232240K free, 0K shrd, 3816K buff, 81960K cached
+SpyInfo_top: CPU: 10.0% usr  0.0% sys  0.0% nic 90.0% idle  0.0% io  0.0% irq  0.0% sirq
+SpyInfo_top: Load average: 2.47 2.56 1.74 4/56 1856
+SpyInfo_top:   PID  PPID USER     STAT   VSZ %VSZ CPU %CPU COMMAND
+SpyInfo_top:  1677     1 root     R    74160 19.4   0  5.0 /home/Suwen/bin/AppPm -qws
+SpyInfo_top:  1854  1852 root     R     2348  0.6   0  5.0 top -b -n 1
+SpyInfo_top:  1678     1 root     S    33296  8.7   0  0.0 /home/Suwen/bin/AppRecorder
+SpyInfo_top:  1679     1 root     S    28312  7.4   0  0.0 /home/Suwen/bin/AppSpy
+SpyInfo_top:  1484     1 root     S    12024  3.1   0  0.0 eGTouchD
+SpyInfo_top:  1482     1 root     S     2364  0.6   0  0.0 syslogd -SC
+SpyInfo_top:  1856  1852 root     S     2352  0.6   0  0.0 sed s/^/SpyInfo_top: /
+SpyInfo_top:     1     0 root     S     2348  0.6   0  0.0 init
+SpyInfo_top:  1500     1 root     S     2348  0.6   0  0.0 telnetd
+SpyInfo_top:  1502     1 root     S     2348  0.6   0  0.0 init
+SpyInfo_top:  1503     1 root     S     2348  0.6   0  0.0 init
+SpyInfo_top:  1504     1 root     S     2348  0.6   0  0.0 init
+SpyInfo_top:  1505     1 root     S     2348  0.6   0  0.0 init
+SpyInfo_top:  1852     1 root     S     2348  0.6   0  0.0 {AppSpyCmd.sh} /bin/sh /home/Suwen/bin/AppSpyCmd.sh /home/Suwen/log/AppSpy.log
+SpyInfo_top:  1855  1852 root     S     2220  0.5   0  0.0 head -n 20
+SpyInfo_top:  1741     2 root     SW       0  0.0   0  0.0 [kworker/0:0]
+-------------------------------
+uptime info:
+SpyInfo_uptime:  16:07:44 up 16 min,  0 users,  load average: 2.47, 2.55, 1.74
+-------------------------------
+disk info:
+SpyInfo_disk: Filesystem                Size      Used Available Use% Mounted on
+SpyInfo_disk: /dev/root                 2.5G    191.3M      2.1G   8% /
+SpyInfo_disk: none                    186.0M      2.2M    183.8M   1% /tmp
+SpyInfo_disk: none                    186.0M      8.0K    186.0M   0% /var
+SpyInfo_disk: none                     64.0K         0     64.0K   0% /dev
+-------------------------------
+dmesg info:
+2013.12.21 16:08:44 AppSpy.cpp@24, _saveSpyInfoOnce(): 
+
+##################################################
+Sat Dec 21 16:08:44 UTC 2013
+-------------------------------
+Top info:
+SpyInfo_top: Mem: 148804K used, 232120K free, 0K shrd, 3832K buff, 81960K cached
+SpyInfo_top: CPU: 10.0% usr  0.0% sys  0.0% nic 90.0% idle  0.0% io  0.0% irq  0.0% sirq
+SpyInfo_top: Load average: 2.64 2.59 1.80 1/56 1869
+SpyInfo_top:   PID  PPID USER     STAT   VSZ %VSZ CPU %CPU COMMAND
+SpyInfo_top:  1677     1 root     R    74160 19.4   0  3.3 /home/Suwen/bin/AppPm -qws
+SpyInfo_top:  1867  1865 root     R     2348  0.6   0  3.3 top -b -n 1
+SpyInfo_top:  1863     2 root     SW       0  0.0   0  3.3 [kworker/0:2]
+SpyInfo_top:  1678     1 root     S    33296  8.7   0  0.0 /home/Suwen/bin/AppRecorder
+SpyInfo_top:  1679     1 root     S    28312  7.4   0  0.0 /home/Suwen/bin/AppSpy
+SpyInfo_top:  1484     1 root     S    12024  3.1   0  0.0 eGTouchD
+SpyInfo_top:  1482     1 root     S     2364  0.6   0  0.0 syslogd -SC
+SpyInfo_top:  1869  1865 root     S     2352  0.6   0  0.0 sed s/^/SpyInfo_top: /
+SpyInfo_top:     1     0 root     S     2348  0.6   0  0.0 init
+SpyInfo_top:  1500     1 root     S     2348  0.6   0  0.0 telnetd
+SpyInfo_top:  1502     1 root     S     2348  0.6   0  0.0 init
+SpyInfo_top:  1503     1 root     S     2348  0.6   0  0.0 init
+SpyInfo_top:  1504     1 root     S     2348  0.6   0  0.0 init
+SpyInfo_top:  1505     1 root     S     2348  0.6   0  0.0 init
+SpyInfo_top:  1865     1 root     S     2348  0.6   0  0.0 {AppSpyCmd.sh} /bin/sh /home/Suwen/bin/AppSpyCmd.sh /home/Suwen/log/AppSpy.log
+SpyInfo_top:  1868  1865 root     S     2220  0.5   0  0.0 head -n 20
+-------------------------------
+uptime info:
+SpyInfo_uptime:  16:08:44 up 17 min,  0 users,  load average: 2.64, 2.59, 1.80
+-------------------------------
+disk info:
+SpyInfo_disk: Filesystem                Size      Used Available Use% Mounted on
+SpyInfo_disk: /dev/root                 2.5G    191.3M      2.1G   8% /
+SpyInfo_disk: none                    186.0M      2.2M    183.8M   1% /tmp
+SpyInfo_disk: none                    186.0M      8.0K    186.0M   0% /var
+SpyInfo_disk: none                     64.0K         0     64.0K   0% /dev
+-------------------------------
+dmesg info:
+2013.12.21 16:09:44 AppSpy.cpp@24, _saveSpyInfoOnce(): 
+
+##################################################
+Sat Dec 21 16:09:44 UTC 2013
+-------------------------------
+Top info:
+SpyInfo_top: Mem: 148864K used, 232060K free, 0K shrd, 3848K buff, 81964K cached
+SpyInfo_top: CPU:  0.0% usr  0.0% sys  0.0% nic  100% idle  0.0% io  0.0% irq  0.0% sirq
+SpyInfo_top: Load average: 2.58 2.59 1.85 4/56 1881
+SpyInfo_top:   PID  PPID USER     STAT   VSZ %VSZ CPU %CPU COMMAND
+SpyInfo_top:  1677     1 root     R    74160 19.4   0  0.0 /home/Suwen/bin/AppPm -qws
+SpyInfo_top:  1879  1877 root     R     2348  0.6   0  0.0 top -b -n 1
+SpyInfo_top:  1678     1 root     S    33296  8.7   0  0.0 /home/Suwen/bin/AppRecorder
+SpyInfo_top:  1679     1 root     S    28312  7.4   0  0.0 /home/Suwen/bin/AppSpy
+SpyInfo_top:  1484     1 root     S    12024  3.1   0  0.0 eGTouchD
+SpyInfo_top:  1482     1 root     S     2364  0.6   0  0.0 syslogd -SC
+SpyInfo_top:  1881  1877 root     S     2352  0.6   0  0.0 sed s/^/SpyInfo_top: /
+SpyInfo_top:     1     0 root     S     2348  0.6   0  0.0 init
+SpyInfo_top:  1500     1 root     S     2348  0.6   0  0.0 telnetd
+SpyInfo_top:  1502     1 root     S     2348  0.6   0  0.0 init
+SpyInfo_top:  1503     1 root     S     2348  0.6   0  0.0 init
+SpyInfo_top:  1504     1 root     S     2348  0.6   0  0.0 init
+SpyInfo_top:  1505     1 root     S     2348  0.6   0  0.0 init
+SpyInfo_top:  1877     1 root     S     2348  0.6   0  0.0 {AppSpyCmd.sh} /bin/sh /home/Suwen/bin/AppSpyCmd.sh /home/Suwen/log/AppSpy.log
+SpyInfo_top:  1880  1877 root     S     2220  0.5   0  0.0 head -n 20
+SpyInfo_top:  1741     2 root     SW       0  0.0   0  0.0 [kworker/0:0]
+-------------------------------
+uptime info:
+SpyInfo_uptime:  16:09:44 up 18 min,  0 users,  load average: 2.57, 2.58, 1.85
+-------------------------------
+disk info:
+SpyInfo_disk: Filesystem                Size      Used Available Use% Mounted on
+SpyInfo_disk: /dev/root                 2.5G    191.3M      2.1G   8% /
+SpyInfo_disk: none                    186.0M      2.2M    183.8M   1% /tmp
+SpyInfo_disk: none                    186.0M      8.0K    186.0M   0% /var
+SpyInfo_disk: none                     64.0K         0     64.0K   0% /dev
+-------------------------------
+dmesg info:
+2013.12.21 16:10:44 AppSpy.cpp@24, _saveSpyInfoOnce(): 
+
+##################################################
+Sat Dec 21 16:10:44 UTC 2013
+-------------------------------
+Top info:
+SpyInfo_top: Mem: 148632K used, 232292K free, 0K shrd, 3864K buff, 81964K cached
+SpyInfo_top: CPU:  0.0% usr  0.0% sys  0.0% nic  100% idle  0.0% io  0.0% irq  0.0% sirq
+SpyInfo_top: Load average: 2.60 2.60 1.90 4/56 1893
+SpyInfo_top:   PID  PPID USER     STAT   VSZ %VSZ CPU %CPU COMMAND
+SpyInfo_top:  1677     1 root     R    74160 19.4   0  0.0 /home/Suwen/bin/AppPm -qws
+SpyInfo_top:  1891  1889 root     R     2348  0.6   0  0.0 top -b -n 1
+SpyInfo_top:  1863     2 root     RW       0  0.0   0  0.0 [kworker/0:2]
+SpyInfo_top:  1678     1 root     S    33296  8.7   0  0.0 /home/Suwen/bin/AppRecorder
+SpyInfo_top:  1679     1 root     S    28312  7.4   0  0.0 /home/Suwen/bin/AppSpy
+SpyInfo_top:  1484     1 root     S    12024  3.1   0  0.0 eGTouchD
+SpyInfo_top:  1482     1 root     S     2364  0.6   0  0.0 syslogd -SC
+SpyInfo_top:  1893  1889 root     S     2352  0.6   0  0.0 sed s/^/SpyInfo_top: /
+SpyInfo_top:     1     0 root     S     2348  0.6   0  0.0 init
+SpyInfo_top:  1500     1 root     S     2348  0.6   0  0.0 telnetd
+SpyInfo_top:  1502     1 root     S     2348  0.6   0  0.0 init
+SpyInfo_top:  1503     1 root     S     2348  0.6   0  0.0 init
+SpyInfo_top:  1504     1 root     S     2348  0.6   0  0.0 init
+SpyInfo_top:  1505     1 root     S     2348  0.6   0  0.0 init
+SpyInfo_top:  1889     1 root     S     2348  0.6   0  0.0 {AppSpyCmd.sh} /bin/sh /home/Suwen/bin/AppSpyCmd.sh /home/Suwen/log/AppSpy.log
+SpyInfo_top:  1892  1889 root     S     2220  0.5   0  0.0 head -n 20
+-------------------------------
+uptime info:
+SpyInfo_uptime:  16:10:44 up 19 min,  0 users,  load average: 2.60, 2.60, 1.90
+-------------------------------
+disk info:
+SpyInfo_disk: Filesystem                Size      Used Available Use% Mounted on
+SpyInfo_disk: /dev/root                 2.5G    191.3M      2.1G   8% /
+SpyInfo_disk: none                    186.0M      2.2M    183.8M   1% /tmp
+SpyInfo_disk: none                    186.0M      8.0K    186.0M   0% /var
+SpyInfo_disk: none                     64.0K         0     64.0K   0% /dev
+-------------------------------
+dmesg info:
