@@ -1,6 +1,7 @@
 # git笔记
 
 ## 使用GitHub
+
 参考了[廖雪峰的Git教程](https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000)
 
 * 第1步：在本机创建SSH Key。
@@ -20,11 +21,28 @@ $ ssh-keygen -t rsa -C "youremail@example.com"
 
 ## 常用命令
 
+* 从远程库克隆
+~~~ bash
+$ git clone https://github.com/wu-yin/test.git
+~~~
+
+* 在本地库查看远程路径
+~~~ bash
+$ git remote -v
+~~~
+
 * 增加文件，并推送到远程
 ~~~ bash
 $ git add file.txt
 $ git commit -m "add file.txt"
 $ git push origin master
+~~~
+
+* 修改文件后提交，并推送到远程
+~~~ bash
+$ git add file.txt
+$ git commit -m "modify file.txt"
+$ git push
 ~~~
 
 * 删除文件、文件夹

@@ -1,13 +1,25 @@
-#第一次学习Markdown语法
-***
-#一级标题
-##二级标题
-###三级标题
-
-***
+# 学习Markdown语法
+●♦►■
+## 行首缩进
 &emsp;&emsp;全角段首两空格缩进<br>
 &ensp;&ensp;半角段首两空格缩进<br>
+
+## 插入图片
 ![imag](image/dang.png)
+
+## 图片对齐
+<div align=center>
+![](image/dang.png)
+</div>
+
+<div align=right>
+![](image/dang.png)
+</div>
+
+## 图片尺寸
+<div align=right>
+<img src="image/dang.png" width="100" height="100" />
+</div>
 
 ## 字体、字号与颜色
 <font color=red>color=red</font>
