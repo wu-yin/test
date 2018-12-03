@@ -4,6 +4,9 @@
 &emsp;&emsp;全角段首两空格缩进<br>
 &ensp;&ensp;半角段首两空格缩进<br>
 
+## 插入链接
+[谷歌搜索](https://www.google.com)
+
 ## 插入图片
 ![imag](image/dang.png)
 
