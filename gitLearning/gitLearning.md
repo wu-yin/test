@@ -3,7 +3,7 @@
 ## 使用GitHub
 
 参考了[廖雪峰的Git教程](https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000)
-
+每次更换了电脑后都要重复这个步骤，否则每次push修改的时候要输入用户名和密码。
 * 第1步：在本机创建SSH Key。
 ~~~ bash
 $ ssh-keygen -t rsa -C "youremail@example.com"
