@@ -21,7 +21,8 @@ $ ssh-keygen -t rsa -C "youremail@example.com"
 
 ## 常用命令
 
-* 从远程库克隆
+* 从GitHub远程库克隆到本地
+  从任何电脑都可以克隆，GitHub的免费账号不提供私有库功能。
 ~~~ bash
 $ git clone https://github.com/wu-yin/test.git
 ~~~
