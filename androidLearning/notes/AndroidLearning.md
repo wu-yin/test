@@ -6,6 +6,22 @@
 * 回到手机“设置”，进入”开发者选项“，打开里面的“USB调试”
 * 在android studio中菜单栏“Tool”,点击后鼠标指到”Android“，点击其中的"Android Device Monitor"，查看是否已连接上。
 
+## 命令行编译工程
+在命令行运行工程目录下的“gradlew.bat”
+
+### 第一个错误
+> $ ./gradlew.bat
+> FAILURE: Build failed with an exception.
+> What went wrong:
+> Could not determine java version from '11.0.1'.
+
+更新文件：
+PROJECT_PATH/android/gradle/wrapper/gradle-wrapper.properties
+中的
+distributionUrl=https\://services.gradle.org/distributions/`gradle-5.0-all.zip`
+
+
+
 ## 安卓基本概念
 ### View（视图）
 Android的图形用户界面由多个视图（View）和视图组（ViewGroup）构建而成。
