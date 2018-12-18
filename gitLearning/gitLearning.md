@@ -64,6 +64,14 @@ $ git commit -m "add file.txt"
 $ git push origin master
 ~~~
 
+* 清除本地未受控的文件
+~~~ bash
+$ git clean -f # 删除所有没有track过的文件。忽略.gitignore文件里的文件
+$ git clean -d # 删除所有没有track过的文件夹。忽略.gitignore文件里的文件夹
+$ git clean -xdf # 删除所有没有track过的文件和文件夹，不管是否在.gitignore文件里
+$ git clean -n # 显示哪些文件会被删除，但不会真正的删除文件
+~~~
+
 * 修改文件后提交，并推送到远程
 ~~~ bash
 $ git add file.txt

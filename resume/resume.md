@@ -1,7 +1,8 @@
-# 简历
-
-**吴垠**
+<div align=right>
+<font size=5>吴垠</font>
 ![](image\head.jpg)
+</div>
+
 
 * 男、1979.5、深圳南山区
 * 学历：本科（武汉大学  计算机科学与技术）
