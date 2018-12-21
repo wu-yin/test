@@ -21,7 +21,6 @@ PROJECT_PATH/android/gradle/wrapper/gradle-wrapper.properties
 distributionUrl=https\://services.gradle.org/distributions/`gradle-5.0-all.zip`
 
 
-
 ## 安卓基本概念
 ### View（视图）
 Android的图形用户界面由多个视图（View）和视图组（ViewGroup）构建而成。
@@ -30,3 +29,16 @@ Android的图形用户界面由多个视图（View）和视图组（ViewGroup）
 
 ### Intent
 `Intent`是指在相互独立的组件（如两个 Activity）之间提供运行时绑定功能的对象。Intent 表示一个应用“执行某项操作的意向”。
+
+## FAQ
+### 在手机上运行一体机的程序，报错
+INSTALL_FAILED_SHARED_USER_INCOMPATIBLE
+![](images/01.png)
+原因是目标手机里的签名文件跟APK文件里的不匹配。
+解决办法是删掉文件Androidmanifest.xml中的SharedUserID这个属性：
+~~~ xml
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.android.sety"
+    android:sharedUserId="android.uid.system">
+~~~
+![](images/02.png)

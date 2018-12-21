@@ -2,8 +2,12 @@
 
 ## 安装Jenkins(Windows)
 ### 安装JDK
+[下载JDK](https://www.oracle.com/technetwork/java/javase/downloads/index.html)
 jdk-11.0.1_windows-x64_bin.exe
-添加环境变量PATH `C:\Program Files\Java\jdk-11.0.1\bin`
+新增环境变量`JAVA_HOME`，变量值`C:\Program Files\Java\jdk-11.0.1;`
+编辑环境变量`PATH`，添加变量值：`%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;`
+新建`CLASSPATH`变量，变量值：`.;%JAVA_HOME%\lib;%JAVA_HOME%\lib\tools.jar;`，（注意最前面有一点）
+
 
 ### 安装git
 Git-2.19.1-64-bit.exe
