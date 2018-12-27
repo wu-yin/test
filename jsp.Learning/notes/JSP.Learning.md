@@ -47,32 +47,45 @@ $ javac -classpath "c:\Program Files\Apache Software Foundation\Tomcat 9.0\lib\s
 ~~~
 顺利的话，在该目录下会生成一个新文件`Ch1Servlet.class`
 将文件`Ch1Servlet.class`拷贝到下面的文件夹中：
-> C:\Program Files\Apache Software Foundation\Tomcat 9.0\webapps\ROOT\WEB-INF\classes\
+> C:\Program Files\Apache Software Foundation\Tomcat 9.0\webapps\ch1\WEB-INF\classes\
 
-然后编辑文件：
-> C:\Program Files\Apache Software Foundation\Tomcat 9.0\webapps\ROOT\WEB-INF\web.xml
+然后新建文件`web.xml`：
+> C:\Program Files\Apache Software Foundation\Tomcat 9.0\webapps\ch1\WEB-INF\web.xml
 
-在<web-app></web-app>中间代码段的结尾部分，增加如下代码：
+文件`web.xml`的代码：
 ~~~ xml
-<servlet>
-    <servlet-name>Chapter1 Servlet</servlet-name>
-    <servlet-class>Ch1Servlet</servlet-class>
-</servlet>
+<?xml version="1.0" encoding="UTF-8"?>
 
-<servlet-mapping>
-    <servlet-name>Chapter1 Servlet</servlet-name>
-    <url-pattern>/Serv1</url-pattern>
-</servlet-mapping>
+<web-app xmlns="http://java.sun.com/xml/ns/j2ee"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd"
+    version="2.4">
+
+	<servlet>
+		<servlet-name>Chapter1 Servlet</servlet-name>
+		<servlet-class>Ch1Servlet</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>Chapter1 Servlet</servlet-name>
+		<url-pattern>/Serv1</url-pattern>
+	</servlet-mapping>
+
+</web-app>
 ~~~
-全文如图
-![](images/02.png)
+整个目录结构如图：
+![](images/06.png)
+
 此时保证Tomcat服务器是在运行中的，如果已经启动，不用重新启动。
 ![](images/03.png)
 在浏览器中输入地址：
-> http://localhost:8080/Serv1
+> http://localhost:8080/ch1/Serv1
 
 此时应看到程序运行结果
 ![](images/04.png)
 
 ## 备忘
-目录`Apach_home/htdocs`是服务器上所有web应用的根目录。
+* 目录`Apach_home/htdocs`是服务器上所有web应用的根目录。
+
+* JSP中的MVC分工
+![](images/05.png)
