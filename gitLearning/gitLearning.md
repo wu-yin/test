@@ -106,6 +106,11 @@ $ git checkout -b branch.name # 切换到一个新建分支branch.name上
 $ git branch -d branch.name # 删除分支branch.name
 ~~~
 
+* 编辑已经提交到 BASE 的日志 log
+~~~ bash
+$ git commit --amend
+~~~
+
 ## 有关冲突
 * 在A电脑修改了文件file.cpp，并push到了远程主机，随后在B电脑上也修改了同一文件file.cpp，但修改的并不是一行。此时如果B电脑push文件file.cpp到远程，会有冲突提示（在svn上不会发生，svn会自动merge）：
 ~~~ bash
