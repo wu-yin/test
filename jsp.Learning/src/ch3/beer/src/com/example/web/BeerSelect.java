@@ -1,5 +1,7 @@
 /*
+ * 在 beer\ 路径下运行如下编译命令
  * javac -classpath "c:/apache-tomcat/lib/servlet-api.jar;classes;." -d classes src/com/example/web/BeerSelect.java
+ * 会在 beer\classes\com\example\web\ 路径下生成文件：BeerSelect.class
  */
 package com.example.web;
 

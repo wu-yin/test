@@ -1,5 +1,7 @@
 /*
+ * 在 beer\ 路径下运行如下编译命令
  * javac -d classes src/com/example/model/BeerExpert.java
+ * 会在 beer\classes\com\example\model\ 路径下生成文件：BeerExpert.class
  */
 package com.example.model;
 import java.util.*;
