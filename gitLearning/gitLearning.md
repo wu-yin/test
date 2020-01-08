@@ -79,10 +79,13 @@ $ git commit -m "modify file.txt"
 $ git push
 ~~~
 
-* 删除文件、文件夹
+* 删除版本库中的文件、文件夹
 ~~~ bash
 $ git rm test.txt
 $ git commit -m "remove test.txt"
+
+$ git rm -r folder_path --cached  # 从版本库删除文件夹，但保留工作目录下的拷贝
+$ git rm -r -f folder_path        # 从版本库和本地都删除文件夹
 ~~~
 
 * 放弃某个文件的本地修改，恢复成库里的版本
