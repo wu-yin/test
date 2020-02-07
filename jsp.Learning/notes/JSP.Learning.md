@@ -7,9 +7,9 @@ Windows 7、Java 11、Tomcat 9
 1. 安装JDK
 [下载JDK](https://www.oracle.com/technetwork/java/javase/downloads/index.html)
 jdk-11.0.1_windows-x64_bin.exe
-新增环境变量`JAVA_HOME`，变量值`C:\Program Files\Java\jdk-11.0.1;`
-编辑环境变量`PATH`，添加变量值：`%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;`
-新建`CLASSPATH`变量，变量值：`.;%JAVA_HOME%\lib;%JAVA_HOME%\lib\tools.jar;`，（注意最前面有一点）
+* 新增环境变量`JAVA_HOME`，变量值`C:\Program Files\Java\jdk-11.0.1;`（如果最后Java环境有问题，可以试下去掉最后的”;“）
+* 编辑环境变量`PATH`，添加变量值：`%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;`
+* 新建`CLASSPATH`变量，变量值：`.;%JAVA_HOME%\lib;%JAVA_HOME%\lib\tools.jar;`，（注意最前面有一点）
 
 2. 安装Tomcat
 [下载Tomcat](https://tomcat.apache.org/download-90.cgi)
