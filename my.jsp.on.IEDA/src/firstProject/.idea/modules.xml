@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/dataModule/dateModule.iml" filepath="$PROJECT_DIR$/dataModule/dateModule.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dateModule/dateModule.iml" filepath="$PROJECT_DIR$/dateModule/dateModule.iml" />
       <module fileurl="file://$PROJECT_DIR$/firstProject.iml" filepath="$PROJECT_DIR$/firstProject.iml" />
     </modules>
   </component>
