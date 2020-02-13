@@ -12,9 +12,21 @@ jdk-11.0.1_windows-x64_bin.exe
 * 新建`CLASSPATH`变量，变量值：`.;%JAVA_HOME%\lib;%JAVA_HOME%\lib\tools.jar;`，（注意最前面有一点）
 
 2. 安装Tomcat
-[下载Tomcat](https://tomcat.apache.org/download-90.cgi)
-双击`apache-tomcat-9.0.14.exe`安装
-新建`TOMCAT_HOME`变量，变量值：`C:\Program Files\Apache Software Foundation\Tomcat 9.0`
+  [下载Tomcat](https://tomcat.apache.org/download-90.cgi)
+  双击`apache-tomcat-9.0.14.exe`安装
+  新建`TOMCAT_HOME`变量，变量值：`C:\Program Files\Apache Software Foundation\Tomcat 9.0`
+
+3. Tomcat命令行终端乱码问题
+
+  修改文件`apache-tomcat\conf\logging.properties`
+
+  ```bash
+  java.util.logging.ConsoleHandler.encoding = UTF-8
+  # 改为
+  java.util.logging.ConsoleHandler.encoding = GBK
+  ```
+
+  
 
 路径：http://localhost:8080/examples/ 下有很多JSP和Servlet的示例。
 

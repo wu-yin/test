@@ -90,7 +90,9 @@ $ git rm -r -f folder_path        # 从版本库和本地都删除文件夹
 
 * 放弃某个文件的本地修改，恢复成库里的版本
 ~~~ bash
+# 相当于SVN的revert
 $ git checkout -- file.txt
+$ git checkout -- dir_name
 ~~~
 
 * 文件更名
