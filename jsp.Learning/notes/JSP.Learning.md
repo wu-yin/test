@@ -12,9 +12,9 @@ jdk-11.0.1_windows-x64_bin.exe
 * 新建`CLASSPATH`变量，变量值：`.;%JAVA_HOME%\lib;%JAVA_HOME%\lib\tools.jar;`，（注意最前面有一点）
 
 2. 安装Tomcat
-  [下载Tomcat](https://tomcat.apache.org/download-90.cgi)
-  双击`apache-tomcat-9.0.14.exe`安装
-  新建`TOMCAT_HOME`变量，变量值：`C:\Program Files\Apache Software Foundation\Tomcat 9.0`
+    [下载Tomcat](https://tomcat.apache.org/download-90.cgi)
+    双击`apache-tomcat-9.0.14.exe`安装
+    新建`TOMCAT_HOME`变量，变量值：`C:\Program Files\Apache Software Foundation\Tomcat 9.0`
 
 3. Tomcat命令行终端乱码问题
 
@@ -45,19 +45,32 @@ http://127.0.0.1:8080/
 * JSP 和 Servlet：JSP是代码是嵌入在HTML代码中的，用`<%  %>`括起来，当然也可以形成独立的`*.jsp`文件。
 * Servlet可以用任何语言写吗？
 * 一个web应用可以包含多个Servlet，但是在一个DD文件中进行描述的
+* HTTP会话
+![](images/11.png)
+
+## 帮助在HTML中引入Java，这就是JSP
+
+从Java源文件中用out.println()直接输出HTML非常原始，要是有办法把Java放在HTML页面中，而不是把HTML放在Java源文件中就好了。
+
+JSP可以做到这个要求，JSP页面就像一个HTML页面，只不过可以把Java和Java有关的东西放在这个页面中。相当于是HTML通过JSP来调用Java类。
 
 
 ## 实例1：第一个Servlet程序
 新建一个Java源文件：Ch1Servlet.java，文件内容：
+
+源码：Ch1Servlet.java
+
 ~~~ java
 import javax.servlet.*;
 import javax.servlet.http.*;
 import java.io.*;
 
 public class Ch1Servlet extends HttpServlet {
+    
 	public void doGet(HttpServletRequest reque,
 			HttpServletResponse response)
 			throws IOException {
+
 		PrintWriter out = response.getWriter();
 		java.util.Date today = new java.util.Date();
 		out.println("<html>" + 
@@ -65,6 +78,7 @@ public class Ch1Servlet extends HttpServlet {
 			"<h1 align=center>HF\'s Chapter1 Servlet</h1>"
 			+ "<br>" + today + "</body>" + "</html>");
 	}
+    
 }
 ~~~
 
@@ -80,6 +94,9 @@ $ javac -classpath "c:\Program Files\Apache Software Foundation\Tomcat 9.0\lib\s
 > C:\Program Files\Apache Software Foundation\Tomcat 9.0\webapps\ch1\WEB-INF\web.xml
 
 文件`web.xml`的代码：
+
+源码：web.xml
+
 ~~~ xml
 <?xml version="1.0" encoding="UTF-8"?>
 
@@ -125,6 +142,9 @@ $ javac -classpath "c:\Program Files\Apache Software Foundation\Tomcat 9.0\lib\s
 在Tomcat目录下创建如下的部署目录：
 ![](images/09.png)
 在目录`tomcat/webapps/Beer`下新建一个文件`form.html`，文件内容为：
+
+源码：form.html
+
 ~~~ xml
 <html><body>
 <h1 align="center">Beer Selection Page</h1>
@@ -147,6 +167,9 @@ $ javac -classpath "c:\Program Files\Apache Software Foundation\Tomcat 9.0\lib\s
 </form></body></html>
 ~~~
 在目录`tomcat/webapps/Beer/WEB-INF`路径下创建DD部署文件`web.xml`，文件内容为：
+
+源码：web.xml
+
 ~~~ xml
 <?xml version="1.0" encoding="UTF-8"?>
 
@@ -170,6 +193,9 @@ $ javac -classpath "c:\Program Files\Apache Software Foundation\Tomcat 9.0\lib\s
 此时启动Tomcat服务器，并在浏览器中输入地址`http://localhost:8080/Beer/form.html`，应该可以打开如下页面：
 ![](images/10.png)
 在源码工作目录`beer\src\com\example\web\ `下创建文件`BeerSelect.java`，文件内容为：
+
+源码：BeerSelect.java
+
 ~~~ java
 package com.example.web;
 
@@ -217,6 +243,9 @@ javac -classpath "c:/apache-tomcat/lib/servlet-api.jar;classes;." -d classes src
 将该文件（BeerSelect.class）拷贝到部署路径 `Tomcat\webapps\Beer\WEB-INF\classes\com\example\web\ `下。
 <br>
 在源码工作目录`beer\src\com\example\model\ `下创建文件`BeerExpert.java`，文件内容为：
+
+源码：BeerExpert.java
+
 ~~~ java
 package com.example.model;
 import java.util.*;

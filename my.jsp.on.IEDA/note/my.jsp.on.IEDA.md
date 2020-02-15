@@ -47,6 +47,10 @@
 编辑index.jsp文件
 ![](images\17.png)
 
+
+
+源码：index.jsp
+
 ```jsp
 <%--
   Created by IntelliJ IDEA.
@@ -82,6 +86,8 @@
 .
 ![](images\22.png)
 
+源码：DateStr.java
+
 ```java
 import javax.servlet.*;
 import javax.servlet.http.*;
@@ -103,6 +109,8 @@ public class DateStr extends HttpServlet {
 
 然后编辑web.xml文件
 ![](images\23.png)
+
+源码：web.xml
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
