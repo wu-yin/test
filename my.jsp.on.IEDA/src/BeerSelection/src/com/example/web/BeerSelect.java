@@ -22,10 +22,7 @@ public class BeerSelect extends HttpServlet {
 //		out.println("Beer Selection Advice<br>");
 
 		request.setAttribute("styles", result);
-
-		RequestDispatcher view =
-				request.getRequestDispatcher("result.jsp");
-
+		RequestDispatcher view = request.getRequestDispatcher("result.jsp");
 		view.forward(request, response);
 
 		// V3版删除
