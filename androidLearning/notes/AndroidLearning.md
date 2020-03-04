@@ -25,7 +25,12 @@ distributionUrl=https\://services.gradle.org/distributions/`gradle-5.0-all.zip`
 ### View（视图）
 Android的图形用户界面由多个视图（View）和视图组（ViewGroup）构建而成。
 * `View`[控件]：是通用的 UI 窗体小组件，如：按钮（Button）、文本框（Text field）；
+
 * `ViewGroup`[控件容器]：则是用来定义子视图布局的不可见的容器，如：网格部件（grid）、垂直列表部件（vertical list）。
+
+### Activity
+
+安卓中的窗口叫做Activity
 
 ### Intent
 `Intent`是指在相互独立的组件（如两个 Activity）之间提供运行时绑定功能的对象。Intent 表示一个应用“执行某项操作的意向”。
@@ -36,9 +41,35 @@ INSTALL_FAILED_SHARED_USER_INCOMPATIBLE
 ![](images/01.png)
 原因是目标手机里的签名文件跟APK文件里的不匹配。
 解决办法是删掉文件Androidmanifest.xml中的SharedUserID这个属性：
+
 ~~~ xml
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.android.sety"
     android:sharedUserId="android.uid.system">
 ~~~
 ![](images/02.png)
+
+## TODO
+
+- [x] 获取设备信息：品牌、厂商、型号、等等
+
+- [x] 在手机上运行
+
+- [x] 蓝牙通讯
+
+- [ ] 创建对象时带的“上下文参数（Context）”是什么？
+
+- [x] AS / IDEA 中的图标意思
+  ![](images\gutter.icos.png)
+
+- [ ] BroadcastReceiver 广播的用途和用法
+
+- [ ] activity.<font color=red>startActivityForResult</font>
+
+- [x] SDK文档
+
+---
+
+- [ ] Doxygen的用法
+
+

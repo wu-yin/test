@@ -7,6 +7,33 @@ export PS1="\[\e[34m\]\u@ \T [\w] >>>> \[\e[0m\] \n\$ "
 alias ll='ls -lFh --time-style=long-iso'
 ```
 
+### grep
+```bash
+# -n：显示行号
+# -r：递归查找当前目录
+# -i：忽略大小写（ignore case）。
+# -w：全字匹配，grep –w "abc" 或者是 grep "\<abc\>"
+
+# 返回结果带颜色
+$ grep --color "text" test.json
+
+# 排除某个文件、某类型文件
+$ grep --exclude=exclude.java "text" .
+$ grep --exclude=*.{java,c} "text" .
+
+
+# 指定文件类型查找
+$ find -type f -name '*.java' | xargs grep "text"
+```
+正则表达式
+
+|       |                                                              |
+| ----- | ------------------------------------------------------------ |
+| ^word | 搜寻以word开头的行。<br/>例如：搜寻以#开头的脚本注释行<br/>grep –n ‘^#’ regular.txt |
+| word$ | 搜寻以word结束的行<br/>例如，搜寻以‘.’结束的行<br/>grep –n ‘.$’ regular.txt |
+| .     | 匹配任意一个字符。<br/>例如：grep –n ‘e.e’ regular.txt<br/>匹配e和e之间有任意一个字符，可以匹配eee，eae，eve，但是不匹配ee。 |
+
+
 
 
 ## Linux Toy
