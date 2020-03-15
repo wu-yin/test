@@ -47,6 +47,51 @@ git有一个名为HEAD的特殊指针，它和许多其它版本控制系统（�
 $ git clone https://github.com/wu-yin/test.git
 ~~~
 
+* 在本地建库
+~~~ bash
+$ git init
+$ git add "files.name"
+$ git commit
+~~~
+
+* add 添加多个本地修改的文件
+```bash
+git add -u .  # --update  更新所有改变的文件，即提交所有变化的文件
+git add -A .  # --all  提交已被修改和已被删除文件，但是不包括新的文件
+```
+
+* 删除版本库中的文件
+```bash
+git rm file_name
+git rm -r dir_name
+git rm --cached file_name  # 不删除本地文件,只从版本库中删除文件
+```
+
+* 删除untracked files
+```bash
+# 删除 untracked files
+git clean -f
+
+# 连 untracked 的目录也一起删掉
+git clean -fd
+
+# 连 gitignore 的untrack 文件/目录也一起删掉 （慎用）
+git clean -xfd
+
+# 在用上述 git clean 前，墙裂建议加上 -n 参数来先看看会删掉哪些文件，防止重要文件被误删
+git clean -nxfd
+```
+
+* 替换默认编辑器
+~~~ bash
+$ git config –global core.editor notepad.exe
+~~~
+
+* 查看status的时候不显示Untracked Files
+~~~ bash
+$ git status -uno
+~~~
+
 * 在本地库查看远程路径
 ~~~ bash
 $ git remote -v
