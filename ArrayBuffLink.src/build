@@ -1,0 +1,3 @@
+#!/bin/sh
+
+gcc BuffLink.c testBuffLink.c -o testBuffLink
