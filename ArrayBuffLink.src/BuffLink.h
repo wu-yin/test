@@ -1,21 +1,21 @@
 /******************************************************************************
  * 2020.04.08 Wu Yin
  *
- * å½“ size>0 æ—¶ï¼š
- * tail æŒ‡å‘çš„æ˜¯é“¾è¡¨ä¸­æœ€*æ–°*çš„é‚£ä¸ªæ•°æ®
- * head æŒ‡å‘çš„æ˜¯é“¾è¡¨ä¸­æœ€*è€*çš„é‚£ä¸ªæ•°æ®
+ * µ± size>0 Ê±£º
+ * tail Ö¸ÏòµÄÊÇÁ´±íÖĞ×î*ĞÂ*µÄÄÇ¸öÊı¾İ
+ * head Ö¸ÏòµÄÊÇÁ´±íÖĞ×î*ÀÏ*µÄÄÇ¸öÊı¾İ
  *
- * sizeçš„ç®—æ³•ï¼š
+ * sizeµÄËã·¨£º
  * size = tail - head + 1
- * å¦‚æœ size < 0,
+ * Èç¹û size < 0,
  * size = size + LINK_LENTH
  *
- * æ·»åŠ èŠ‚ç‚¹æ—¶ï¼štail++
- * åˆ é™¤èŠ‚ç‚¹æ—¶ï¼šhead++
+ * Ìí¼Ó½ÚµãÊ±£ºtail++
+ * É¾³ı½ÚµãÊ±£ºhead++
  ******************************************************************************/
-
 #ifndef BUFF_LINK_H
 #define BUFF_LINK_H
+
 
 #define FALSE 0
 #define TRUE  1
@@ -27,14 +27,13 @@ typedef unsigned char UINT8;
 #define NODE_LENTH 106
 
 /*
- * ä»å°¾éƒ¨æ·»åŠ ï¼Œä»å¤´éƒ¨è¯»å–å¹¶åˆ é™¤
+ * ´ÓÎ²²¿Ìí¼Ó£¬´ÓÍ·²¿¶ÁÈ¡²¢É¾³ı
  */
 typedef struct {
 	UINT8 buffPool[LINK_LENTH][NODE_LENTH];
-	int head;  // æŒ‡å‘å½“å‰é“¾è¡¨ä¸­æœ€*è€*çš„é‚£ä¸ªæ•°æ®
-	int tail;  // æŒ‡å‘å½“å‰é“¾è¡¨ä¸­æœ€*æ–°*çš„é‚£ä¸ªæ•°æ®
-	int nodeLen;
-	int linkLen;
+	int head;      // Ö¸Ïòµ±Ç°Á´±íÖĞ×î*ÀÏ*µÄÄÇ¸öÊı¾İ
+	int tail;      // Ö¸Ïòµ±Ç°Á´±íÖĞ×î*ĞÂ*µÄÄÇ¸öÊı¾İ
+	int size;
 } BuffLink;
 
 int BuffLink_getSize(BuffLink *self);
@@ -47,3 +46,4 @@ int BuffLink_getHead(BuffLink *self);
 int BuffLink_getTail(BuffLink *self);
 
 #endif
+

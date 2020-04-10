@@ -56,7 +56,11 @@ Markdown中如何插入尖括号
 
 
 ## 画图
-参考这里：https://blog.csdn.net/whatday/article/details/88655461
+参考：
+
+https://blog.csdn.net/whatday/article/details/88655461
+
+https://mermaid-js.github.io/mermaid/#/
 
 ```mermaid
 graph LR;

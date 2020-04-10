@@ -25,30 +25,26 @@ int BuffLink_getTail(BuffLink *self) {
 
 /******************************************************************************
  * 2020.04.08 Wu Yin
- * èŽ·å–æœ‰æ•ˆæ•°æ®ä¸ªæ•°
- * è¿”å›žå€¼ï¼š
- * -1ï¼šé”™è¯¯
+ * »ñÈ¡ÓÐÐ§Êý¾Ý¸öÊý
+ * ·µ»ØÖµ£º
+ * -1£º´íÎó
  ******************************************************************************/
 int BuffLink_getSize(BuffLink *self) {
 	if(NULL == self) {
 		return -1;
 	}
 
-	int linkSize = self->tail - self->head + 1;
-	if(linkSize < 0) {
-		linkSize = LINK_LENTH + linkSize;
-	}
-
-	if((linkSize < 0) || (linkSize > LINK_LENTH)) {
+	if(self->size < 0 || self->size > LINK_LENTH) {
+		self->size = 0;
 		return -1;
 	}
-//	printf("BuffLink_getSize()=%d \n", linkSize);
-	return linkSize;
+
+	return self->size;
 }
 
 /******************************************************************************
  * 2020.04.08 Wu Yin
- * å¼¹å‡ºä¸€ä¸ªèŠ‚ç‚¹
+ * µ¯³öÒ»¸ö½Úµã
  ******************************************************************************/
 UINT8 *BuffLink_popNode(BuffLink *self) {
 	if(NULL == self) {
@@ -63,13 +59,14 @@ UINT8 *BuffLink_popNode(BuffLink *self) {
 
 	self->head++;
 	self->head = self->head % LINK_LENTH;
+	self->size--;
 
 	return self->buffPool[self->head];
 }
 
 /******************************************************************************
  * 2020.04.08 Wu Yin
- * æ·»åŠ èŠ‚ç‚¹
+ * Ìí¼Ó½Úµã
  ******************************************************************************/
 UINT8 *BuffLink_getNewNode(BuffLink *self) {
 	if(NULL == self) {
@@ -77,7 +74,7 @@ UINT8 *BuffLink_getNewNode(BuffLink *self) {
 	}
 
 	int selfSize = BuffLink_getSize(self);
-	// æº¢å‡º
+	// Òç³ö
 	if((selfSize < 0) || (selfSize >= LINK_LENTH)) {
 //		printf("over 2 %d %d \n", self->head, self->tail);
 		return NULL;
@@ -85,13 +82,14 @@ UINT8 *BuffLink_getNewNode(BuffLink *self) {
 
 	self->tail++;
 	self->tail = self->tail % LINK_LENTH;
+	self->size++;
 
 	return self->buffPool[self->tail];
 }
 
 /******************************************************************************
  * 2020.04.08 Wu Yin
- * åˆå§‹åŒ–
+ * ³õÊ¼»¯
  ******************************************************************************/
 void BuffLink_init(BuffLink *self) {
 	if(NULL == self) {
@@ -100,6 +98,6 @@ void BuffLink_init(BuffLink *self) {
 
 	self->head = 0;
 	self->tail = -1;
-	self->nodeLen = NODE_LENTH;
-	self->linkLen = LINK_LENTH;
+	self->size = 0;
 }
+

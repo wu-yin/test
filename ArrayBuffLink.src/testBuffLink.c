@@ -46,5 +46,20 @@ void main() {
 			BuffLink_getHead(&bl),
 			BuffLink_getTail(&bl));
 
+	printf("\n----- test: add and pop 2 ------\n");
+	BuffLink_init(&bl);
+	printf("tail=%d head=%d len=%d \n",
+				BuffLink_getTail(&bl),
+				BuffLink_getHead(&bl),
+				BuffLink_getSize(&bl));
+	for(int i = 0; i < 15; i++) {
+		BuffLink_getNewNode(&bl);
+		BuffLink_popNode(&bl);
+		printf("tail=%d head=%d len=%d \n",
+				BuffLink_getTail(&bl),
+				BuffLink_getHead(&bl),
+				BuffLink_getSize(&bl));
+	}
+
 	return;
 }
