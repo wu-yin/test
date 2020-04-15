@@ -57,11 +57,13 @@ UINT8 *BuffLink_popNode(BuffLink *self) {
 		return NULL;
 	}
 
+	UINT8 *retBuff;
+	retBuff = self->buffPool[self->head];
 	self->head++;
 	self->head = self->head % LINK_LENTH;
 	self->size--;
 
-	return self->buffPool[self->head];
+	return retBuff;
 }
 
 /******************************************************************************
