@@ -29,29 +29,40 @@ typedef unsigned int BOOL;
 typedef unsigned char UINT8;
 
 
-#define LINK_LENTH 5
+#define BUFFLINK_LENTH 5
 // 这个100是一个波形数据节点的长度
 // 这个值要与 "Ksm5.h" 中的 ECG_WAVE_BUFF_LEN 相等
-#define NODE_LENTH 100
+#define WAVE_NODE_LENTH 100
 
 /*
  * 从尾部添加，从头部读取并删除
+ *   0   1   2   3   4
+ *  --- --- --- --- ---
+ * | * | * | * |   |   |   size=3
+ *  --- --- --- --- ---
+ *   ^       ^tail:最新插入的一个值
+ *   ^head:最先插入的一个值，会pop出的那个值
  */
 typedef struct {
-	UINT8 buffPool[LINK_LENTH][NODE_LENTH];
+	UINT8 buffPool[BUFFLINK_LENTH][WAVE_NODE_LENTH]; // 静态分配内存池
 	int head;      // 指向当前链表中最*老*的那个数据
 	int tail;      // 指向当前链表中最*新*的那个数据
 	int size;
+	char name[10]; // For Debug
 } BuffLink;
 
 int BuffLink_getSize(BuffLink *self);
 UINT8 *BuffLink_popNode(BuffLink *self);
 UINT8 *BuffLink_getNewNode(BuffLink *self);
-void BuffLink_init(BuffLink *self);
+void BuffLink_init(BuffLink *self, char *name);
 
-// For test
+BOOL BuffLink_isFull(BuffLink *self);
+BOOL BuffLink_isEmpty(BuffLink *self);
+
+// For Debug
 int BuffLink_getHead(BuffLink *self);
 int BuffLink_getTail(BuffLink *self);
+char *BuffLink_getName(BuffLink *self);
 
 #endif
 
