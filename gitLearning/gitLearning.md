@@ -54,6 +54,12 @@ $ git add "files.name"
 $ git commit
 ~~~
 
+* 类似于`svn info`，需要用以下两个命令来实现
+```bash
+$ git remote -v
+$ git log -1
+```
+
 * add 添加多个本地修改的文件
 ```bash
 git add -u .  # --update  更新所有改变的文件，即提交所有变化的文件
