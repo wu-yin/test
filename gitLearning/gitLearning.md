@@ -155,11 +155,14 @@ $ git push origin master
 
 * 分支操作
 ~~~ bash
+$ git branch branch.name          # 创建分支branch.name
+$ git checkout branch.name      # 切换到分支branch.name
+
+$ git checkout -b branch.name  # 创建并切换到分支branch.name上。上面两句的简写模式
+
+$ git branch -d branch.name     # 删除分支branch.name
+
 $ git log --graph # 以图形形式查看分支情况
-$ git branch branch.name # 创建分支branch.name
-$ git checkout branch.name # 切换到分支branch.name
-$ git checkout -b branch.name # 切换到一个新建分支branch.name上
-$ git branch -d branch.name # 删除分支branch.name
 ~~~
 
 * 编辑已经提交到 BASE 的日志 log
