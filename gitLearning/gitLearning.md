@@ -22,6 +22,7 @@ $ ssh-keygen -t rsa -C "youremail@example.com"
 ## 基本概念
 * **HEAD指针**
 git有一个名为HEAD的特殊指针，它和许多其它版本控制系统（如svn或CVS）里的HEAD概念完全不同。 在git中，它是一个指针，指向当前所在的本地分支（将HEAD想象为**当前分支的别名**）。
+* `master`是分支名，`origrin`是库的别名
 * **三种状态**（committed、modified、staged）
 你的文件可能处于其中之一：已提交（committed）、已修改（modified）和已暂存（staged）。
 已提交：数据已经安全的保存在本地数据库中。
@@ -153,7 +154,21 @@ $ git commit -m "renamed filename.txt"
 $ git push origin master
 ~~~
 
-* 分支操作
+* 编辑已经提交到 BASE 的日志 log
+~~~ bash
+$ git commit --amend
+~~~
+
+## 代码回滚
+~~~ bash
+$ git reset --hard <commit> # 回滚到指定的提交，如果本地有修改，会冲突
+$ git log --pretty=oneline # 单行模式查看每个提交的日志
+$ git reflog # 查看操作的历史记录
+~~~
+
+
+## 分支操作
+
 ~~~ bash
 $ git branch branch.name          # 创建分支branch.name
 $ git checkout branch.name      # 切换到分支branch.name
@@ -163,11 +178,6 @@ $ git checkout -b branch.name  # 创建并切换到分支branch.name上。上面
 $ git branch -d branch.name     # 删除分支branch.name
 
 $ git log --graph # 以图形形式查看分支情况
-~~~
-
-* 编辑已经提交到 BASE 的日志 log
-~~~ bash
-$ git commit --amend
 ~~~
 
 ## 有关冲突
