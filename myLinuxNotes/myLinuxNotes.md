@@ -1,4 +1,4 @@
-## 脚本
+## 脚本、命令
 
 ### bashrc
 
@@ -33,6 +33,11 @@ $ find -type f -name '*.java' | xargs grep "text"
 | word$ | 搜寻以word结束的行<br/>例如，搜寻以‘.’结束的行<br/>grep –n ‘.$’ regular.txt |
 | .     | 匹配任意一个字符。<br/>例如：grep –n ‘e.e’ regular.txt<br/>匹配e和e之间有任意一个字符，可以匹配eee，eae，eve，但是不匹配ee。 |
 
+### tar
+```bash
+$ tar -cjvf  filename.tar.bz2    folder_name  # 压缩
+$ tar -xvf   filename.tar.bz2  # 解压缩
+```
 
 
 

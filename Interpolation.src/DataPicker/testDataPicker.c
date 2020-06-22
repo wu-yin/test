@@ -12,13 +12,13 @@ void testOneInstance() {
 
 	for(int i = 0; i < 50; i++) {
 		if(DataPicker_append(&dp, i)) {
-			printf("%d ", DataPicker_getResultVal(&dp));
+			printf("in=%d out=%d \n", i, DataPicker_getResultVal(&dp));
 		}
 	}
 
 	for(int i = 50; i > 0; i--) {
 		if(DataPicker_append(&dp, i)) {
-			printf("%d ", DataPicker_getResultVal(&dp));
+			printf("in=%d out=%d \n", DataPicker_getResultVal(&dp));
 		}
 	}
 }
