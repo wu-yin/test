@@ -193,3 +193,7 @@ hint: 'git pull ...') before pushing again.
 hint: See the 'Note about fast-forwards' in 'git push --help' for details.
 ~~~
 此时需要先从远端把最新的file.cpp更新（pull）到本地，此时git才会自动merge，然后再push本地修改到远端。
+
+## 更改库名称
+
+改了远端的库名称后，在本地打开文件`.git\config`，修改其中的`url`字段即可

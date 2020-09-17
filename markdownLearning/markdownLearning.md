@@ -24,6 +24,12 @@ Markdown中如何插入尖括号
 此时我们需要使用转义字符：&lt;&gt;
 比如：&lt;尖括号中的内容&gt;
 
+## 导出PDF时的分页符
+
+~~~html
+<div STYLE="page-break-after: always;"></div>
+~~~
+
 ## 插入链接
 [谷歌搜索](https://www.google.com)
 
@@ -32,12 +38,13 @@ Markdown中如何插入尖括号
 
 ## 图片对齐
 <div align=center>
-![](image/dang.png)
+<img src="image/dang.png" />
 </div>
 
 <div align=right>
-![](image/dang.png)
+<img src="image/dang.png" />
 </div>
+
 
 ## 图片尺寸
 <div align=right>
@@ -55,6 +62,14 @@ Markdown中如何插入尖括号
 
 
 
+<table><tr><td bgcolor=orange> 背景色是 1 orange</td></tr></table>
+
+<div style="background-color:orange; color:white">我是内容</div>
+
+
+
+
+
 ## 画图
 参考：
 
@@ -68,6 +83,13 @@ A-->B
 B-->C
 C-->D
 D-->A
+D-.-cmt1(这是一个备注)
+D-.-cmt2(这是另一个备注)
+D-.-cmt3(这是还一个备注)
+
+style cmt1 fill:#bbf, stroke:#f66, stroke-width:2px, color:#fff, stroke-dasharray:5, 5
+style cmt2 fill:#f9f, stroke:#333, stroke-width:4px
+style cmt3 fill:#ff9
 ```
 
 图方向
